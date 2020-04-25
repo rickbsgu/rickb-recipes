@@ -31,10 +31,8 @@ export default {
       "/images/Shrimp in Lime and Garlic_t.png"
     ]
   }),
-  created() {
-    window.addEventListener('resize', this.onWinResized)
-  },
   mounted() {
+    window.addEventListener('resize', this.onWinResized)
     this.$nextTick(this.onWinResized)
   },
   beforeDestroy() {
