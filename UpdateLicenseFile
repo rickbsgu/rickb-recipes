@@ -1,0 +1,11 @@
+#! /bin/sh
+
+for NAME in `find $DEV -type d \( -name node_modules -o -name go -o -name .yalc -o -name gitpkg \) -prune -o -name LICENSE | grep -v "\(node_modules$\|go$\|yalc$\|gitpkg$\)"`
+do
+  if [ `grep -c -m 1 MIT $NAME` -gt 0 ]
+  then
+#    echo $NAME
+    cp -v $DEV/gitpkg/LICENSE $NAME
+  fi
+done
+

@@ -1,0 +1,10 @@
+#! /bin/bash -x
+DESTDIR=static/images
+rm $DESTDIR/*
+
+for IMG in full-images/*.png
+do
+  FN=`basename "$IMG" .png`
+  gm convert "$IMG" +profile "*" "${DESTDIR}/${FN}_l.png"
+  gm convert "$IMG" -resize 200x200 +profile "*" "${DESTDIR}/${FN}_t.png"
+done
