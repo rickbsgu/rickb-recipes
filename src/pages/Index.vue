@@ -4,7 +4,8 @@
         ref="recipesCtnr">
       <div>
         <div class="grid grid-cols-4 shadow-xl">
-          <img v-for="(pic, ix) of thumbs" :key="ix" :src="pic" />
+          <img v-for="(edge, ix) of $page.thumbs.edges" :key="ix"
+               :src="edge.node.path" />
         </div>
         <div class="w-full text-right text-3xl italic pt-1">
           <g-link class="text-green-700 hover:text-blue-600" :to="'#'">Let's Cook &mdash;></g-link>
@@ -14,23 +15,24 @@
   </Layout>
 </template>
 
+<page-query>
+query {
+  thumbs:allImages(filter:{type: {eq: "thumb"}}) {
+    edges {
+      node {
+        name
+        path
+      }
+    }
+  }
+}
+</page-query>
+
 <script>
 export default {
   metaInfo: {
     title: 'Welcome'
   },
-  data: () => ({
-    thumbs: [
-      "/images/3-Pepper Quiche_t.png",
-      "/images/Camp Potatoes on Lake Powell_t.png",
-      "/images/Eggs Benedict_t.png",
-      "/images/Gallette_t.png" ,
-      "/images/Hamburger and Onion on Dome Grill_t.png",
-      "/images/Pancakes on Sailboat_t.png",
-      "/images/Sausage and Peppers_t.png",
-      "/images/Shrimp in Lime and Garlic_t.png"
-    ]
-  }),
   mounted() {
     window.addEventListener('resize', this.onWinResized)
     this.$nextTick(this.onWinResized)
