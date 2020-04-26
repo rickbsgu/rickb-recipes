@@ -1,6 +1,7 @@
 @tailwind base;
 
-h2, h3, a { @apply text-green-700 }
+h2, h3, a { @apply text-green-700; }
+a:hover { @apply underline;}
 h2 { @apply font-display font-light text-4xl tracking-wider mb-6
             border-b-2 border-green-600; 
      margin-left: -1em;}

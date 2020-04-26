@@ -1,15 +1,17 @@
 <template>
   <Layout>
     <div class="resizeable-element flex justify-center items-center">
-      <div>
-        <div class="flex flex-wrap justify-center">
-
+        <div class="font-display tracking-widest font-light absolute top-0 mt-40 w-9/12 flex justify-around
+                    text-2xl italic">
+          <g-link :to="'#'">Italian</g-link>
+          <g-link :to="'#'">French</g-link>
+          <g-link :to="'#'">Moroccan</g-link>
+          <g-link :to="'#'">Breakfast</g-link>
         </div>
-        <div class="grid grid-cols-4 shadow-xl">
+      <div>
+          <div class="grid grid-cols-4 shadow-xl">
           <img v-for="(edge, ix) of $page.thumbs.edges" :key="ix"
                :src="edge.node.path" />
-        </div>
-        <div class="w-full text-right text-3xl italic pt-1">
         </div>
       </div>
     </div>
