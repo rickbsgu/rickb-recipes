@@ -1,0 +1,13 @@
+@tailwind base;
+
+h2, h3, a { @apply text-green-700 }
+h2 { @apply font-display font-light text-4xl tracking-wider mb-6
+            border-b-2 border-green-600; 
+     margin-left: -1em;}
+
+p + p { margin-top: 2rem;}
+p { font-size: 1.2rem; }
+
+@tailwind components;
+
+@tailwind utilities;
