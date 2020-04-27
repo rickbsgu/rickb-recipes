@@ -6,8 +6,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 const fs = require('fs')
 
-module.exports = function (api) {
-  api.loadSource((actions) => {
+function makeImagesCollection(actions) {
     let dir = fs.opendirSync(process.cwd() + '/static/images')
     let fd, fn, nameParts
     const imagesColl = actions.addCollection('images')
@@ -22,6 +21,26 @@ module.exports = function (api) {
     }
 
     dir.close()
+}
+
+function makeCategoriesCollection(actions) {
+  let recipes = actions.getCollection("Recipe")
+  let nodes = recipes.findNodes()
+  let categoryNames = new Set()
+  for (node of nodes) {
+    categoryNames.add(node.category)
+  }
+  let categories = actions.addCollection("Category")
+  for (let categoryName of categoryNames)
+    categories.addNode({
+      name: categoryName
+    })
+}
+
+module.exports = function (api) {
+  api.loadSource((actions) => {
+    makeImagesCollection(actions)
+    makeCategoriesCollection(actions)
   })
 
   api.createPages(({ createPage }) => {

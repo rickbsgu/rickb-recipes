@@ -3,10 +3,10 @@
     <div class="resizeable-element flex justify-center items-center">
         <div class="font-display tracking-widest font-light absolute top-0 mt-40 w-9/12 flex justify-around
                     text-2xl italic">
-          <g-link :to="'#'">Italian</g-link>
-          <g-link :to="'#'">French</g-link>
-          <g-link :to="'#'">Moroccan</g-link>
-          <g-link :to="'#'">Breakfast</g-link>
+          <g-link class="block-inline capitalize" v-for="edge of $page.categories.edges" :key="edge.node.name"
+                  :to="'/category/' + edge.node.name">
+            {{edge.node.name}}
+          </g-link>
         </div>
       <div>
           <div class="grid grid-cols-4 shadow-xl">
@@ -25,6 +25,13 @@ query {
       node {
         name
         path
+      }
+    }
+  }
+  categories:allCategory {
+    edges {
+      node {
+        name
       }
     }
   }
