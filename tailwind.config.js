@@ -11,6 +11,11 @@ module.exports = {
       },
       borderRadius: {
         xl: '1.0rem'
+      },
+      opacity: {
+        '90': .90,
+        '85': .85,
+        '80': .80
       }
     }
   },
