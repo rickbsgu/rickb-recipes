@@ -16,6 +16,8 @@ p { font-size: 1.2rem; }
 .recipe-content ol li { @apply list-decimal; }
 .recipe-content li + li { @apply mt-2; }
 
+.recipe-subctnr { background-color: rgba(255,255,255, .75)}
+
 @tailwind components;
 
 @tailwind utilities;

@@ -8,7 +8,7 @@
                   opacity-100 w-8/12 py-2">
           {{$page.recipe.title}}
       </div>
-      <div class="w-8/12 bg-white opacity-80 px-12
+      <div class="recipe-subctnr w-8/12 px-12
                   rounded-b-xl text-gray-800 border-2 border-gray-600
                   border-t-0 text-lg text-justify">
         <div class="pt-4">
