@@ -20,10 +20,6 @@
   </Layout>
 </template>
 
-<style scoped>
-</style>>
-</style>
-
 <script>
 import ResizeMixin from '@/mixins/ResizeMixin'
 export default {
