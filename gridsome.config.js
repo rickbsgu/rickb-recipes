@@ -11,16 +11,16 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'recipes/**/*.md',
-        typeName: 'Recipe',
-        remark: {
-          // remark options
-        }
+        typeName: 'Recipe'
       }
     },
     {
       use: 'gridsome-plugin-tailwindcss'
     }
   ],
+  templates: {
+    Recipe: "/recipes/:category/:slug"
+  },
   transformers: {
     remark: {
       plugins: [
