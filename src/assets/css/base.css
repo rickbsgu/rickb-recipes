@@ -17,6 +17,7 @@ p { font-size: 1.2rem; }
 .recipe-content li + li { @apply mt-2; }
 
 .recipe-subctnr { background-color: rgba(255,255,255, .75)}
+.recipe-content ol + ul { @apply ml-8 }
 
 @tailwind components;
 

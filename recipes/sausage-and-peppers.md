@@ -8,11 +8,12 @@ serves: 2
 image: "Sausage and Peppers_l.png"
 slug: "sausage-and-peppers"
 ---
-This is definitely the "Americanized" version of the dish.  If you order it in Italy, you won't see any of the ingredients – they're all mixed up in the sauce.
+### Description
+This is definitely the "Americanized" version of the dish.  If you order it in Italy, you won't see any of the ingredients on the plate &ndash; they're all mixed up in the sauce.
 
 I like lumpy stuff in my pasta sauce, and this dish definitely fits the bill.
 
-The rosemary is the interesting ingredient, here. You need to be a bit careful with the quantity – it can overpower the garlic!
+The rosemary is the interesting ingredient, here. You need to be a bit careful with the quantity &ndash; it can overpower the garlic!
 
 ### Prep
 
@@ -39,9 +40,9 @@ All of the quantities are suggestion.  Change to taste.
 1. Slice the pepper into 1/8 to 1/4 inch strips
 1. Throw the sausage disks in the pot to saute in medium heat.  Flip them now and again so they brown evenly on both sides.
 1. While the sausage is cooking:
-1. Strip all the leaves (needles) off the rosemary sprigs and chop finely.
-1. Prep the garlic: I like to slice it super thinly with a sharp knife.  Or you can crush and mince, if you prefer
-1. When the sausage medallions are lightly browned:
+  * Strip all the leaves (needles) off the rosemary sprigs and chop finely.
+  * Prep the garlic: I like to slice it super thinly with a sharp knife.  Or you can crush and mince, if you prefer
+5.  When the sausage medallions are lightly browned:
 1. Sop up the sausage grease with a pair of tongs and paper towels, until the base of the pan is dry.
 1. Add some olive oil
 1. Add the pepper slices and continue cooking.
