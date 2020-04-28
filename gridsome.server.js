@@ -28,7 +28,7 @@ function makeCategoriesCollection(actions) {
   let nodes = recipes.findNodes()
   let categoryNames = new Set()
   for (node of nodes) {
-    categoryNames.add(node.category)
+    categoryNames.add(node.category.toLowerCase())
   }
   let categories = actions.addCollection("Category")
   for (let categoryName of categoryNames)
@@ -41,9 +41,39 @@ module.exports = function (api) {
   api.loadSource((actions) => {
     makeImagesCollection(actions)
     makeCategoriesCollection(actions)
+    console.log('created collections')
   })
 
-  api.createPages(({ createPage }) => {
-    // Use the Pages API here: https://gridsome.org/docs/pages-api/
+  api.createPages(async ({graphql, createPage }) => {
+    console.log('in createPages')
+    let edges
+    try {
+      const rsp = await graphql(
+      `{
+        allCategory {
+          edges {
+            node {
+              id
+              name
+              }
+            }
+          }
+        }`
+      )
+
+      for (edge of rsp.data.allCategory.edges) {
+        createPage({
+          path: '/category/' + edge.node.name,
+          component: './src/templates/Category.vue',
+          context: {
+            categoryName: edge.node.name
+          }
+        })
+      }
+
+    } catch(err) {
+      console.error('Error in createPages: ' + err)
+    }
+
   })
 }
