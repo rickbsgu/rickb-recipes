@@ -2,7 +2,9 @@
   <Layout>
     <div class="recipe-ctnr min-h-full w-full pl-40 py-40
                 bg-no-repeat bg-repeat-y bg-contain"
-         style='background-image: url("/images/Sausage and Peppers_l.png")'>
+         :style="backgroundImageStyle"
+         @click="showRecipe = !showRecipe">
+      <div v-show="showRecipe">
       <div class="rounded-t-xl font-display font-light bg-green-800
                   text-center text-3xl text-white tracking-widest
                   opacity-100 w-8/12 py-2">
@@ -10,7 +12,8 @@
       </div>
       <div class="recipe-subctnr w-8/12 px-12
                   rounded-b-xl text-gray-800 border-2 border-gray-600
-                  border-t-0 text-lg text-justify">
+                  border-t-0 text-lg text-justify"
+        @click.capture.stop="(evt)=>{}">
         <div class="pt-4">
           <div class="flex justify-between px-8 py-2 mb-4 border-2 border-gray-500
                       text-xl bg-yellow-200">
@@ -39,6 +42,7 @@
           </div>
         </div>
       </div>
+      </div>
     </div>
   </Layout>
 </template>
@@ -50,8 +54,22 @@ query Recipe ($path: String!) {
     date (format: "D-MMM-YYYY")
     author
     source
+    image
     serves
     content
   }
 }
 </page-query>
+
+<script>
+export default {
+  data: ()=> ({
+    showRecipe: true
+  }),
+  computed: {
+    backgroundImageStyle: function() {
+      return 'background-image: url("/images/' + this.$page.recipe.image + '")'
+    }
+  }
+}
+</script>

@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="resizeable-element flex justify-center items-center">
-        <div class="font-display tracking-widest font-light absolute top-0 mt-40 w-9/12 flex justify-around
+        <div class="tracking-widest font-normal absolute top-0 mt-40 w-9/12 flex justify-around
                     text-2xl italic">
           <g-link class="block-inline capitalize" v-for="edge of $page.categories.edges" :key="edge.node.name"
                   :to="'/category/' + edge.node.name">

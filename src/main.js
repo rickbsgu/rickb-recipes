@@ -8,4 +8,8 @@ import './assets/css/base.css'
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
+  head.link.push({
+    rel: "stylesheet",
+    href: "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap"
+  })
 }

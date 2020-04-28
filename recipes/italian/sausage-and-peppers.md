@@ -15,7 +15,7 @@ I like lumpy stuff in my pasta sauce, and this dish definitely fits the bill.
 
 The rosemary is the interesting ingredient, here. You need to be a bit careful with the quantity &ndash; it can overpower the garlic!
 
-### Prep
+### Tools
 
 I like to use a cast iron dutch oven or chicken fryer on a stove.  It's heavy, it heats slowly, and retains heat after you turn it off, which is important for mixing all the flavors together in the last stage.
 
