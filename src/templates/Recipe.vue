@@ -15,26 +15,22 @@
                   border-t-0 text-lg text-justify"
         @click.capture.stop="(evt)=>{}">
         <div class="pt-4">
-          <div class="flex justify-between px-8 py-2 mb-4 border-2 border-gray-500
+          <div class="pl-2 pr-4 py-2 mb-4 border-2 border-gray-500
                       text-xl bg-yellow-200">
             <div class="table">
               <div class="table-row">
-                <div class="table-cell px-1"><h4 class="text-right">Date:</h4></div>
-                <div class="table-cell px-1">{{$page.recipe.date}}</div>
+                <div class="table-cell px-0" style="width:10%"><h4 class="text-right">Date:</h4></div>
+                <div class="table-cell px-2 text-base text-left" style="width:20%">{{$page.recipe.date}}</div>
+                <div class="table-cell" style="width:20%"/>
+                <div class="table-cell px-0" style="width:10%"><h4 class="text-right">Source:</h4></div>
+                <div class="table-cell px-2 text-base text-left" style="width:40%">{{$page.recipe.source}}</div>
               </div>
               <div class="table-row">
-                <div class="table-cell px-1"><h4 class="text-right">By:</h4></div>
-                <div class="table-cell px-1">{{$page.recipe.author}}</div>
-              </div>
-            </div>
-            <div class="table">
-              <div class="table-row">
-                <div class="table-cell px-1"><h4 class="text-right">Source:</h4></div>
-                <div class="table-cell px-1">{{$page.recipe.source}}</div>
-              </div>
-              <div class="table-row">
-                <div class="table-cell px-1"><h4 class="text-right">Serves:</h4></div>
-                <div class="table-cell px-1">{{$page.recipe.serves}}</div>
+                <div class="table-cell px-0" style="width:10%"><h4 class="text-right">By:</h4></div>
+                <div class="table-cell px-2 text-base text-left" style="width:20%">{{$page.recipe.author}}</div>
+                <div class="table-cell" style="width:20%"/>
+                <div class="table-cell px-0" style="width:10%"><h4 class="text-right">Serves:</h4></div>
+                <div class="table-cell px-2 text-base text-left" style="width:40%">{{$page.recipe.serves}}</div>
               </div>
             </div>
           </div>
@@ -77,6 +73,8 @@ query Recipe ($path: String!) {
   .recipe-content ol li + li,
   .recipe-content ol + ul li + li{ @apply mt-2; }
   .recipe-content ol + ul { @apply ml-8 }
+
+  .recipe-subctnr { background-color: rgba(255,255,255, .85)}
 </style>
 
 <script>
