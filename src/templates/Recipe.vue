@@ -57,7 +57,6 @@ query Recipe ($path: String!) {
     image
     serves
     content
-    description
   }
 }
 </page-query>
