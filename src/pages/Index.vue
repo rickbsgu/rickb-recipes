@@ -10,8 +10,11 @@
         </div>
       <div>
           <div class="grid grid-cols-4 shadow-xl">
-          <img v-for="(edge, ix) of $page.thumbs.edges" :key="ix"
-               :src="edge.node.path" />
+          <img v-for="(edge, ix) of $page.images.edges" :key="ix"
+               :src="edge.node.path"
+               v-tooltip="{content:getTooltip(edge.node.name),
+                           placement:'bottom', offset:'-50%'}"
+              />
         </div>
       </div>
     </div>
@@ -20,7 +23,7 @@
 
 <page-query>
 query {
-  thumbs:allImages(filter:{type: {eq: "thumb"}}) {
+  images:allImages {
     edges {
       node {
         name
@@ -44,7 +47,12 @@ export default {
   metaInfo: {
     title: 'Welcome'
   },
-  mixins: [ResizeMixin]
+  mixins: [ResizeMixin],
+  methods: {
+    getTooltip(str) {
+      return `<div class="bg-yellow-200 text-sm p-1 border-gray-600 border">${str}</div>`
+    }
+  }
 }
 </script>
 

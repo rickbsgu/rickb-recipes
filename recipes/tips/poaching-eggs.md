@@ -5,7 +5,7 @@ category: tips
 author: Rick
 source: Various
 serves: 2
-image: "Eggs Benedict_l.png"
+image: "Eggs Benedict.png"
 slug: "poaching-eggs"
 ---
 ### Description

@@ -12,11 +12,10 @@ function makeImagesCollection(actions) {
     const imagesColl = actions.addCollection('images')
     while (!!(fd = dir.readSync())) {
       fn = fd.name
-      nameParts = fn.split('_')
+      nameParts = fn.split('.')
       imagesColl.addNode({
         name: nameParts[0],
-        path: '/images/' + fn,
-        type: nameParts[1][0] === 't'? 'thumb' : 'article'
+        path: '/images/' + fn
       })
     }
 

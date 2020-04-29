@@ -5,7 +5,7 @@ category: italian
 author: Rick
 source: Self
 serves: 2
-image: "Sausage and Peppers_l.png"
+image: "Sausage and Peppers.png"
 slug: "sausage-and-peppers"
 ---
 ### Description

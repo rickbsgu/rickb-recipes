@@ -5,7 +5,7 @@ category: breakfasts
 author: Rick
 source: Various
 serves: 2
-image: "Eggs Benedict_l.png"
+image: "Eggs Benedict.png"
 slug: "eggs-benedict"
 ---
 ### Description
