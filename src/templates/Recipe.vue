@@ -61,6 +61,24 @@ query Recipe ($path: String!) {
 }
 </page-query>
 
+<style>
+  .recipe-content h3 {}
+  .recipe-content h4 { @apply mt-4 italic text-xl; }
+
+
+  .recipe-content dt { @apply italic; }
+  .recipe-content dd { @apply ml-6;}
+  .recipe-content dd { @apply mb-4; }
+
+  .recipe-content ul, ol { @apply ml-4 my-4; }
+  .recipe-content ul li { @apply list-disc; }
+  .recipe-content ol li { @apply list-decimal; }
+  .recipe-content ul li + li { @apply mt-0; }
+  .recipe-content ol li + li,
+  .recipe-content ol + ul li + li{ @apply mt-2; }
+  .recipe-content ol + ul { @apply ml-8 }
+</style>
+
 <script>
 export default {
   data: ()=> ({

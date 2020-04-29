@@ -1,6 +1,7 @@
 @tailwind base;
 
-h2, h3, h4,a { @apply text-green-700; }
+h2, h3, h4,a,
+.recipe-content h3 { @apply text-green-700; }
 a:hover { @apply underline;}
 h2, h3 { @apply font-display tracking-wider
             border-b-2 border-green-600;}
@@ -11,18 +12,7 @@ h3 { @apply text-2xl; margin-left: -1em; margin-bottom: 0.5em;
 p + p { margin-top: 1.2rem;}
 p { font-size: 1.2rem; }
 
-.recipe-content h4 { @apply mt-4 italic text-xl; }
-.recipe-content dt { @apply italic; }
-.recipe-content dd { @apply ml-6;}
-.recipe-content dd { @apply mb-4; }
-
-.recipe-content ul, ol { @apply ml-4 my-4; }
-.recipe-content ul li { @apply list-disc; }
-.recipe-content ol li { @apply list-decimal; }
-.recipe-content li + li { @apply mt-2; }
-
 .recipe-subctnr { background-color: rgba(255,255,255, .75)}
-.recipe-content ol + ul { @apply ml-8 }
 
 @tailwind components;
 
