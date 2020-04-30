@@ -10,15 +10,19 @@
  | Following is the header, or what is referred to in markdown parlance
  | as 'front-matter'.  The fields in here are required and must be
  | valid.  Use the example data to guide your input.
+ |
+ | Categories are self-discovered through the directory structure.
+ | To create a new category, make a new folder under the 'recipes'
+ | folder (lower case, only.)  Then create a '+intro' html file using
+ | an existing one as a guide.  Make sure you change the slug.
  -->
 ---
 title: "Hollandaise"
 date: 2020-04-28
-category: sauces
 author: Rick
 source: Various
 serves: 2
-image: "Eggs Benedict_l.png"
+image: "Eggs Benedict.png"
 slug: "hollandaise"
 <!--- 
  | the _slug_ is the final part of the link, for instance in this link:
@@ -41,7 +45,8 @@ slug: "hollandaise"
  | If there is something specific or unusual to the recipe, list it
  | here.
  |
- | Also a bullet (unordered) list.
+ | If a simple listing, use a bullet (unordered) list.  A short
+ | paragraph is ok, too, if you need to explain more.
  -->
 
 * _bain-marie_ set

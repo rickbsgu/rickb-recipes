@@ -1,7 +1,6 @@
 ---
 title: "Eggs Benedict"
 date: 2020-04-28
-category: breakfasts
 description: "The king of breakfast dishes.  It's a bright sunny day that starts with Eggs Benedict!"
 author: Rick
 source: Various

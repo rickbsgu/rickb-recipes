@@ -1,7 +1,6 @@
 ---
 title: "Hollandaise"
 date: 2020-04-28
-category: sauces
 description: "One of the four basic sauces. It's a bit tricky to master, but incredibly rewarding once you get it down."
 author: Rick
 source: Various

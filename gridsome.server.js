@@ -29,8 +29,8 @@ function makeCategoriesCollection(actions) {
   let thisCategory
 
   for (let node of nodes) {
-    if (node.fileInfo.name.startsWith('+')) {   
-      thisCategory = node.fileInfo.path.split('/').slice(-2, -1)[0] 
+    thisCategory = node.fileInfo.path.split('/').slice(-2, -1)[0]
+    if (node.fileInfo.name.startsWith('+')) {    
       console.log('Adding: ' + thisCategory)   
       categories.addNode({
         name: thisCategory,
@@ -39,6 +39,10 @@ function makeCategoriesCollection(actions) {
       })
 
       recipes.removeNode(node.id)
+    } else {
+      recipes.removeNode(node.id)
+      node.category = thisCategory
+      recipes.addNode(node)
     }
   }
 }

@@ -1,7 +1,6 @@
 ---
 title: "Sausage and Peppers"
 date: 2020-04-20
-category: italian
 description: "Italian sausage, peppers, onions and tomatoes in italian spices, served over rigatoni."
 author: Rick
 source: Self

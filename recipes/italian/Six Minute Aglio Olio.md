@@ -1,7 +1,6 @@
 ---
 title: "Six Minute Aglio Olio"
 date: 2020-04-28
-category: italian
 author: Rick
 source: Surreal Gourmet - ToasterMobile
 description: "Wonderful tangy pasta recipe from Bob Blumer (Surreal Gourmet - ToasterMobile)"
