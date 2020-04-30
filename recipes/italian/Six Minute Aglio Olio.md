@@ -4,7 +4,7 @@ date: 2020-04-28
 category: italian
 author: Rick
 source: Surreal Gourmet - ToasterMobile
-excerpt: "Wonderful tangy pasta recipe from Bob Blumer <em>(Surreal Gourmet - ToasterMobile)</em>"
+description: "Wonderful tangy pasta recipe from Bob Blumer (Surreal Gourmet - ToasterMobile)"
 serves: 2
 image: ""
 slug: "six-minute-aglio-olio"
