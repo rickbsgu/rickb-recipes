@@ -10,9 +10,9 @@
         </div>
       <div>
           <div class="grid grid-cols-4 shadow-xl">
-          <img v-for="(edge, ix) of $page.images.edges" :key="ix"
-               :src="edge.node.path"
-               v-tooltip="{content:getTooltip(edge.node.name),
+          <g-image width="300" v-for="(imageName, ix) of gridImages" :key="ix"
+               :src="'/images/' + imageName + '.png'"
+               v-tooltip="{content:getTooltip(imageName),
                            placement:'bottom', offset:'-50%'}"
               />
         </div>
@@ -51,6 +51,20 @@ export default {
   methods: {
     getTooltip(str) {
       return `<div class="bg-yellow-200 text-sm p-1 border-gray-600 border">${str}</div>`
+    }
+  },
+  computed: {
+    gridImages: function() {
+      return [
+        "3-Pepper Quiche",
+        "Carbonara",
+        "Eggs Benedict",
+        "Sausage and Peppers",
+        "Gallette",
+        "Shrimp in Lime and Garlic",
+        "Hamburger and Onion on Dome Grill",
+        "Camp Potatoes on Lake Powell"
+      ]
     }
   }
 }
