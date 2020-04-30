@@ -11,6 +11,10 @@
   </div>
 </template>
 
+<style>
+  body { background-color: cornsilk; }
+</style>
+
 <static-query>
 query {
   metadata {

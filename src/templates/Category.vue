@@ -1,18 +1,23 @@
 <template>
   <Layout>
+    <div class="flex justify-center">
+      <div class="w-8/12">
     <div>
       <div class="font-thin italic text-6xl pt-2 text-center text-green-600 capitalize">{{ $context.categoryName }}
       <sub class="font-normal text-gray-600 text-3xl -ml-4">Recipes</sub></div>
     </div>
     <div class="px-8">
-    <div class="border-4 bg-yellow-100 border-gray-500 py-4 px-8 rounded-xl my-8"
+    <div class="border-4 bg-yellow-100 border-gray-500 py-4 px-8 rounded-xl mt-8"
          v-html="$context.categoryContent">
     </div>
+    <div class="flex justify-center">
+      <div class="bg-gray-500 my-8 w-1/2" style="min-height:2px"/>
+    </div>
     <div
-      class="flex border border-gray-500 border-2 rounded-r-lg"
+      class="flex border-2 border-gray-500 rounded-r-xl"
       v-for="(recipe, ix) in recipesForCategory" :key="ix">
       <g-image style="height:120px;width:120px" :src="'/images/' + recipe.image"/>
-      <div class="pl-4 py-2 text-2xl">
+      <div class="pl-4 py-2 text-2xl bg-yellow-100 rounded-r-xl">
         <div> 
           <g-link :to="recipe.path">
           {{recipe.title}}
@@ -20,6 +25,8 @@
         </div>
       <p>{{recipe.description}}</p>
       </div>
+    </div>
+    </div>
     </div>
     </div>
   </Layout>

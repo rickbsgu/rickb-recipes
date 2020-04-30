@@ -1,9 +1,0 @@
-#! /bin/bash -x
-DESTDIR=static/images
-rm $DESTDIR/*
-
-for IMG in full-images/*.png
-do
-  FN=`basename "$IMG"`
-  gm convert "$IMG" +profile "*" "${DESTDIR}/${FN}"
-done

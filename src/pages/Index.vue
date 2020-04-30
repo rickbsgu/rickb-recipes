@@ -10,7 +10,7 @@
         </div>
       <div>
           <div class="grid grid-cols-4 shadow-xl">
-          <g-image width="300" v-for="(imageName, ix) of gridImages" :key="ix"
+          <g-image v-for="(imageName, ix) of gridImages" :key="ix"
                :src="'/images/' + imageName + '.png'"
                v-tooltip="{content:getTooltip(imageName),
                            placement:'bottom', offset:'-50%'}"
