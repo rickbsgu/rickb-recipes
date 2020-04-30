@@ -24,16 +24,23 @@ function makeImagesCollection(actions) {
 
 function makeCategoriesCollection(actions) {
   let recipes = actions.getCollection("Recipe")
-  let nodes = recipes.findNodes()
-  let categoryNames = new Set()
-  for (node of nodes) {
-    categoryNames.add(node.category.toLowerCase())
-  }
   let categories = actions.addCollection("Category")
-  for (let categoryName of categoryNames)
-    categories.addNode({
-      name: categoryName
-    })
+  let nodes = recipes.findNodes()
+  let thisCategory
+
+  for (let node of nodes) {
+    if (node.fileInfo.name.startsWith('+')) {   
+      thisCategory = node.fileInfo.path.split('/').slice(-2, -1)[0] 
+      console.log('Adding: ' + thisCategory)   
+      categories.addNode({
+        name: thisCategory,
+        content: node.content,
+        slug: thisCategory
+      })
+
+      recipes.removeNode(node.id)
+    }
+  }
 }
 
 module.exports = function (api) {
@@ -54,6 +61,7 @@ module.exports = function (api) {
             node {
               id
               name
+              content
               }
             }
           }
@@ -65,7 +73,8 @@ module.exports = function (api) {
           path: '/category/' + edge.node.name,
           component: './src/templates/Category.vue',
           context: {
-            categoryName: edge.node.name
+            categoryName: edge.node.name,
+            categoryContent: edge.node.content
           }
         })
       }
@@ -73,6 +82,5 @@ module.exports = function (api) {
     } catch(err) {
       console.error('Error in createPages: ' + err)
     }
-
   })
 }
