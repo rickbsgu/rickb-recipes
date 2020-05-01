@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="recipe-ctnr min-h-full w-full pl-40 py-40
+    <div class="recipe-ctnr min-h-full w-full pl-40 py-20
                 bg-no-repeat bg-repeat-y bg-contain"
          :style="backgroundImageStyle"
          @click="showRecipe = !showRecipe">
