@@ -10,7 +10,9 @@ slug: "six-minute-aglio-olio"
 ---
 ### Description
 
-"Wonderful tangy pasta recipe from Bob Blumer <em>(Surreal Gourmet - ToasterMobile)</em>"
+"Wonderful tangy pasta recipe from Bob Blumer _(Surreal Gourmet - ToasterMobile)_.
+
+Lemon and chili add a refreshing zing unexpected in a pasta dish.
 
 ### Ingredients
 

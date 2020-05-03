@@ -23,7 +23,7 @@
                 <div class="table-cell px-2 text-base text-left" style="width:20%">{{$page.recipe.date}}</div>
                 <div class="table-cell" style="width:20%"/>
                 <div class="table-cell px-0" style="width:10%"><h4 class="text-right">Source:</h4></div>
-                <div class="table-cell px-2 text-base text-left" style="width:40%">{{$page.recipe.source}}</div>
+                <div class="table-cell px-2 text-base text-left" style="width:40%" v-html="$page.recipe.source"></div>
               </div>
               <div class="table-row">
                 <div class="table-cell px-0" style="width:10%"><h4 class="text-right">By:</h4></div>

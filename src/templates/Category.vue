@@ -17,7 +17,7 @@
       class="flex border-2 border-gray-500 mt-4 rounded-r-xl"
       v-for="(recipe, ix) in recipesForCategory" :key="ix">
       <g-image style="height:120px;width:120px" :src="'/images/' + recipe.image"/>
-      <div class="pl-4 py-2 text-2xl bg-yellow-100 rounded-r-xl">
+      <div class="pl-4 py-2 text-2xl bg-yellow-100 rounded-r-xl w-full">
         <div> 
           <g-link :to="recipe.path">
             {{recipe.title}}
