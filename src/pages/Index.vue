@@ -1,5 +1,6 @@
 <template>
   <Layout>
+    <Dialog v-if="showDlg" @dialogClose="showDlg = false" :title="dlgTitle" :msg="dlgMsg" />
     <div class="relative" ref="homeCtnr">
       <div class="tracking-widest w-full font-normal absolute top-0 py-4 w-9/12 flex justify-around
                   text-2xl italic" ref="navBlock">
@@ -14,7 +15,8 @@
                :src="'/images/' + imageName + '.png'"
                v-tooltip="{content:getTooltip(imageName),
                            placement:'bottom', offset:'-50%'}"
-              />
+            @click="gotoRecipeforImage(imageName)"
+          />
         </div>
       </div>
     </div>
@@ -38,14 +40,29 @@ query {
       }
     }
   }
+  recipes:allRecipe {
+    edges {
+      node {
+        path
+        image
+      }
+    }
+  }
 }
 </page-query>
 
 <script>
+import Dialog from '@/components/Dialog'
 export default {
   metaInfo: {
     title: 'Welcome'
   },
+  data: () => ({
+    dlgTitle: '',
+    dlgMsg: '',
+    showDlg: false
+  }),
+  components: { Dialog },
   mounted() {
     let _this = this
     this.$nextTick(()=>{
@@ -59,6 +76,24 @@ export default {
   methods: {
     getTooltip(str) {
       return `<div class="bg-yellow-200 text-sm p-1 border-gray-600 border">${str}</div>`
+    },
+    gotoRecipeforImage(imageName) {
+      let imageFull = imageName + '.png'
+      for (let edge of this.$page.recipes.edges) {
+        if (edge.node.image === imageFull) {
+          this.$router.push(edge.node.path)
+          return
+        }
+      }
+
+      this.showDialog("Oops...",
+           `<p>Sorry, no recipe yet for <em>${imageName}</em>.</p>
+            <p>Please come back later....</p>`)
+    },
+    showDialog(title, message) {
+      this.dlgTitle = title
+      this.dlgMsg = message
+      this.showDlg = true
     },
     windowResized() {
       const IMG_ASPECT = 2
