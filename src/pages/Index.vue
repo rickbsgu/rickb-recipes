@@ -2,19 +2,23 @@
   <Layout>
     <Dialog v-if="showDlg" @dialogClose="showDlg = false" :title="dlgTitle" :msg="dlgMsg" />
     <div class="relative" ref="homeCtnr">
-      <div class="tracking-widest w-full font-normal absolute top-0 py-4 w-9/12 flex justify-around
-                  text-2xl italic" ref="navBlock">
-        <g-link class="block-inline capitalize" v-for="edge of $page.categories.edges" :key="edge.node.name"
+      <div class="tracking-widest w-full font-normal absolute top-0 py-4
+                  flex justify-center flex-wrap
+                  text-2xl italic sm:text-lg sm:leading-loose" ref="navBlock">
+        <div v-for="edge of $page.categories.edges" :key="edge.node.name"
+          class="px-8">
+          <g-link class="capitalize"
                 :to="'/category/' + edge.node.name">
-          {{edge.node.name}}
-        </g-link>
+          {{edge.node.name.replace(/ /g, '&nbsp;')}}
+          </g-link>
+        </div>
       </div>
       <div class="absolute w-full" ref="imgBlockCtnr">
-        <div class="absolute grid grid-cols-4 shadow-xl" ref="imgBlock">
+        <div class="absolute grid grid-cols-4 shadow-xl sm:grid-cols-2" ref="imgBlock">
           <g-image v-for="(imageName, ix) of gridImages" :key="ix"
                :src="'/images/' + imageName + '.png'"
                v-tooltip="{content:getTooltip(imageName),
-                           placement:'bottom', offset:'-50%'}"
+                           placement:'bottom', offset:' w-9/12-50%'}"
             @click="gotoRecipeforImage(imageName)"
           />
         </div>
@@ -60,7 +64,17 @@ export default {
   data: () => ({
     dlgTitle: '',
     dlgMsg: '',
-    showDlg: false
+    showDlg: false,
+    GRID_IMAGES: [
+        "3-Pepper Quiche",
+        "Carbonara",
+        "Eggs Benedict",
+        "Sausage and Peppers",
+        "Gallette",
+        "Shrimp in Lime and Garlic",
+        "Hamburger and Onion on Dome Grill",
+        "Camp Potatoes on Lake Powell"
+    ]
   }),
   components: { Dialog },
   mounted() {
@@ -96,8 +110,8 @@ export default {
       this.showDlg = true
     },
     windowResized() {
-      const IMG_ASPECT = 2
-      let py = 40
+      const IMG_ASPECT = window.innerWidth < 640? 1 : 2
+      let py = window.innerWidth < 640? 16 : 40
       let imgBlockCtnr = this.$refs.imgBlockCtnr,
           navBlock = this.$refs.navBlock,
           imgBlock = this.$refs.imgBlock,
@@ -142,16 +156,10 @@ export default {
   },
   computed: {
     gridImages: function() {
-      return [
-        "3-Pepper Quiche",
-        "Carbonara",
-        "Eggs Benedict",
-        "Sausage and Peppers",
-        "Gallette",
-        "Shrimp in Lime and Garlic",
-        "Hamburger and Onion on Dome Grill",
-        "Camp Potatoes on Lake Powell"
-      ]
+      if (process.isClient && window.innerWidth < 640)
+        return this.GRID_IMAGES.slice(0, 4)
+
+      return this.GRID_IMAGES
     }
   }
 }

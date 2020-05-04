@@ -1,7 +1,8 @@
 <template>
   <div class="container mx-auto px-4 pt-4 h-screen text-gray-600">
     <header class="flex justify-between items-center border-b-2 border-green-600">
-      <div class="font-display text-green-700 font-hairline text-6xl tracking-wider">
+      <div class="font-display text-green-700 font-hairline text-6xl tracking-wider
+                  sm:text-4xl">
         Rickb Recipes
       </div>
       <nav>
@@ -14,7 +15,7 @@
 </template>
 
 <style>
-  body { background-color: cornsilk; }
+  body { background-color: cornsilk;}
 </style>
 
 <static-query>

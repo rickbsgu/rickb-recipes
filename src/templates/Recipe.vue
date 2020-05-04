@@ -1,10 +1,11 @@
 <template>
   <Layout>
     <div class="recipe-ctnr min-h-full w-full pl-40 py-20
-                bg-no-repeat bg-repeat-y bg-contain"
+                bg-no-repeat bg-repeat-y bg-contain sm:pl-0 sm:py-4"
          :style="backgroundImageStyle">
       <div>
-      <div class="rounded-t-xl bg-green-800 opacity-100 w-8/12 py-2 text-white px-4">
+      <div class="rounded-t-xl bg-green-800 opacity-100 w-8/12 py-2 text-white px-4
+                  sm:w-full">
           <h1 class="font-display font-light
                   text-center text-3xl tracking-widest">
             {{$page.recipe.title}}
@@ -12,7 +13,8 @@
       </div>
       <div class="recipe-subctnr w-8/12 px-12
                   rounded-b-xl text-gray-800 border-2 border-gray-600
-                  border-t-0 text-lg text-justify"
+                  border-t-0 text-lg text-justify sm:w-full
+                  sm:text-gray-600"
         >
         <div class="flex justify-between text-sm pt-2 text-green-600">
           <div>
@@ -28,21 +30,21 @@
         </div>
         <div class="pt-4">
           <div class="pl-2 pr-4 py-2 mb-4 border-2 border-gray-500
-                      text-xl bg-yellow-200">
+                      text-xl bg-yellow-200 sm:text-base">
             <div class="table">
               <div class="table-row">
                 <div class="table-cell px-0" style="width:10%"><h4 class="text-right">Date:</h4></div>
-                <div class="table-cell px-2 text-base text-left" style="width:20%">{{$page.recipe.date}}</div>
+                <div class="table-cell px-2 text-base text-left sm:text-sm" style="width:20%">{{$page.recipe.date}}</div>
                 <div class="table-cell" style="width:20%"/>
                 <div class="table-cell px-0" style="width:10%"><h4 class="text-right">Source:</h4></div>
-                <div class="table-cell px-2 text-base text-left" style="width:40%" v-html="$page.recipe.source"></div>
+                <div class="table-cell px-2 text-base text-left sm:text-sm" style="width:40%" v-html="$page.recipe.source"></div>
               </div>
               <div class="table-row">
                 <div class="table-cell px-0" style="width:10%"><h4 class="text-right">By:</h4></div>
-                <div class="table-cell px-2 text-base text-left" style="width:20%">{{$page.recipe.author}}</div>
+                <div class="table-cell px-2 text-base text-left sm:text-sm" style="width:20%">{{$page.recipe.author}}</div>
                 <div class="table-cell" style="width:20%"/>
                 <div class="table-cell px-0" style="width:10%"><h4 class="text-right">Serves:</h4></div>
-                <div class="table-cell px-2 text-base text-left" style="width:40%">{{$page.recipe.serves}}</div>
+                <div class="table-cell px-2 text-base text-left sm:text-sm" style="width:40%">{{$page.recipe.serves}}</div>
               </div>
             </div>
           </div>
@@ -53,7 +55,7 @@
       </div>
     </div>
     <div v-if="showingImage" class="overlay fixed top-0 left-0 w-full h-full flex items-center">
-      <div class="mx-auto w-1/2 border-2 border-gray-400 bg-white text-xl">
+      <div class="mx-auto w-1/2 border-2 border-gray-400 bg-white text-xl sm:w-3/4">
         <img :src="'/images/' + $page.recipe.image" />
         <div class="flex justify-between mx-4">
           <div>{{$page.recipe.title}}</div>
@@ -109,7 +111,10 @@ export default {
   }),
   computed: {
     backgroundImageStyle: function() {
-      return 'background-image: url("/images/' + this.$page.recipe.image + '")'
+      if (process.isClient && window.innerWidth >= 640)
+        return 'background-image: url("/images/' + this.$page.recipe.image + '")'
+      
+      return ''
     }
   },
   methods: {
