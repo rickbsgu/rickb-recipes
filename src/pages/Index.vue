@@ -4,7 +4,7 @@
     <div class="relative" ref="homeCtnr">
       <div class="tracking-widest w-full font-normal absolute top-0 py-4
                   flex justify-center flex-wrap
-                  text-2xl italic sm:text-lg sm:leading-loose" ref="navBlock">
+                  text-2xl lg:text-xl italic sm:text-lg sm:leading-loose" ref="navBlock">
         <div v-for="edge of $page.categories.edges" :key="edge.node.name"
           class="px-8">
           <g-link class="capitalize"
