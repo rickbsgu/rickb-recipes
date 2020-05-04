@@ -2,18 +2,30 @@
   <Layout>
     <div class="recipe-ctnr min-h-full w-full pl-40 py-20
                 bg-no-repeat bg-repeat-y bg-contain"
-         :style="backgroundImageStyle"
-         @click="showRecipe = !showRecipe">
-      <div v-show="showRecipe">
-      <div class="rounded-t-xl font-display font-light bg-green-800
-                  text-center text-3xl text-white tracking-widest
-                  opacity-100 w-8/12 py-2">
-          {{$page.recipe.title}}
+         :style="backgroundImageStyle">
+      <div>
+      <div class="rounded-t-xl bg-green-800 opacity-100 w-8/12 py-2 text-white px-4">
+          <h1 class="font-display font-light
+                  text-center text-3xl tracking-widest">
+            {{$page.recipe.title}}
+          </h1>
       </div>
       <div class="recipe-subctnr w-8/12 px-12
                   rounded-b-xl text-gray-800 border-2 border-gray-600
                   border-t-0 text-lg text-justify"
-        @click.capture.stop="(evt)=>{}">
+        >
+        <div class="flex justify-between text-sm pt-2 text-green-600">
+          <div>
+            Back to:
+             <g-link :to="'/category/' + $page.recipe.category"
+                     class="italic capitalize">{{$page.recipe.category}}
+             </g-link>
+          </div>
+          <button class="block hover:underline focus:outline-none"
+            @click="showingImage=true">
+            Show Image
+          </button>
+        </div>
         <div class="pt-4">
           <div class="pl-2 pr-4 py-2 mb-4 border-2 border-gray-500
                       text-xl bg-yellow-200">
@@ -40,7 +52,17 @@
       </div>
       </div>
     </div>
-  </Layout>
+    <div v-if="showingImage" class="overlay fixed top-0 left-0 w-full h-full flex items-center">
+      <div class="mx-auto w-1/2 border-2 border-gray-400 bg-white text-xl">
+        <img :src="'/images/' + $page.recipe.image" />
+        <div class="flex justify-between mx-4">
+          <div>{{$page.recipe.title}}</div>
+          <button class="text-green-600 hover:underline focus:outline-none"
+                  @click="showingImage=false">close</button>
+        </div>
+      </div>
+    </div>
+    </Layout>
 </template>
 
 <page-query>
@@ -53,6 +75,7 @@ query Recipe ($path: String!) {
     image
     serves
     content
+    category
   }
 }
 </page-query>
@@ -75,16 +98,23 @@ query Recipe ($path: String!) {
   .recipe-content ol + ul { @apply ml-8 }
 
   .recipe-subctnr { background-color: rgba(255,255,255, .85)}
+
+  .overlay { background-color: rgba(0, 0, 0, .75)}
 </style>
 
 <script>
 export default {
   data: ()=> ({
-    showRecipe: true
+    showingImage: false
   }),
   computed: {
     backgroundImageStyle: function() {
       return 'background-image: url("/images/' + this.$page.recipe.image + '")'
+    }
+  },
+  methods: {
+    showImage() {
+      this.showingImage = true
     }
   }
 }
