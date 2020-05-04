@@ -5,7 +5,7 @@ description: "A perfectly poached egg is a thing to behold.  Here are three meth
 author: Rick
 source: Various
 serves: 2
-image: "Eggs Benedict.png"
+image: "Egg Poacher.png"
 slug: "poaching-eggs"
 ---
 ### Description
