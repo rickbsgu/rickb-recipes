@@ -16,12 +16,14 @@
         </button>
       </div>
       <nav class="sm:hidden">
+        <g-link class="px-4 text-xl" to="/category/tips">Tips</g-link>
         <g-link class="px-4 text-xl" to="/">Home</g-link>
         <g-link class="px-4 text-xl" to="/about/">About</g-link>
       </nav>
     </header>
     <div v-if="showDropDown" class="fixed z-10 right-0 bg-green-600 w-2/12 text-right
                                     px-4 pt-2 pb-4 mr-4 -mt-2">
+      <g-link class="block text-yellow-200 text-xl" to="/category/tips">Tips</g-link>
       <g-link class="block text-yellow-200 text-xl" to="/">Home</g-link>
       <g-link class="block mt-2 text-yellow-200 text-xl" to="/about/">About</g-link>
     </div>

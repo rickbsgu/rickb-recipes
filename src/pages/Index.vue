@@ -5,11 +5,11 @@
       <div class="tracking-widest w-full font-normal absolute top-0 py-4
                   flex justify-center flex-wrap
                   text-2xl lg:text-xl italic sm:text-lg sm:leading-loose" ref="navBlock">
-        <div v-for="edge of $page.categories.edges" :key="edge.node.name"
+        <div v-for="category of categories" :key="category"
           class="px-8">
           <g-link class="capitalize"
-                :to="'/category/' + edge.node.name">
-          {{edge.node.name.replace(/ /g, '&nbsp;')}}
+                :to="'/category/' + category">
+          {{category.replace(/ /g, '&nbsp;')}}
           </g-link>
         </div>
       </div>
@@ -58,6 +58,8 @@ query {
 <script>
 import Dialog from '@/components/Dialog'
 import GeneralImage from '@/mixins/GeneralImage'
+import CategoryExclusions from '@/mixins/CategoryExclusions'
+
 export default {
   metaInfo: {
     title: 'Welcome'
@@ -80,10 +82,10 @@ export default {
         "Egg Poacher",
         "Blender Mayonnaise",
         "Aglio Olio + Crispy Italian Chicken"
-    ]  
+    ]
   }),
   components: { Dialog },
-  mixins: [GeneralImage],
+  mixins: [GeneralImage, CategoryExclusions],
   mounted() {
     let _this = this
     this.$nextTick(()=>{
@@ -228,6 +230,17 @@ export default {
       }
 
       return images
+    },
+    categories: function() {
+      let categories = []
+      debugger
+      for (let edge of this.$page.categories.edges) {
+        debugger
+        if (!this.excludedCategory(edge.node.name))
+          categories.push(edge.node.name)
+      }
+
+      return categories
     }
   }
 }

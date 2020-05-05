@@ -5,7 +5,7 @@
         <div>
           <div class="font-thin italic text-6xl pt-2 text-center text-green-600 capitalize
                       sm:text-4xl">{{ $context.categoryName }}
-          <sub class="font-normal text-gray-600 text-3xl -ml-4 sm:text-2xl">Recipes</sub></div>
+          <sub v-if="!excludedCategory($context.categoryName)" class="font-normal text-gray-600 text-3xl -ml-4 sm:text-2xl">Recipes</sub></div>
         </div>
         <div class="px-8 sm:px-0">
           <div class="border-4 bg-yellow-100 border-gray-500 py-4 px-8 rounded-xl mt-8"
@@ -18,7 +18,7 @@
             class="flex border-2 border-gray-500 mt-4 rounded-r-xlbreakfasts/eggs-benedict/"
             v-for="(recipe, ix) in recipesForCategory" :key="ix">
             <img style="height:120px;width:120px" :src="'/images/' + getImageName(recipe.image)"/>
-            <div class="pl-4 py-2 text-2xl bg-yellow-100 rounded-r-xl w-full">
+            <div class="pl-4 py-2 pr-4 text-2xl bg-yellow-100 rounded-r-xl w-full">
               <div> 
                 <g-link :to="recipe.path">
                   {{recipe.title}}
@@ -51,11 +51,12 @@ query {
 
 <script>
 import GeneralImage from '@/mixins/GeneralImage'
+import CategoryExclusions from '@/mixins/CategoryExclusions'
 
 export default {
   methods: {
   },
-  mixins: [GeneralImage],
+  mixins: [GeneralImage, CategoryExclusions],
   computed: {
     recipesForCategory: function() {
       let recipeNodes = []
