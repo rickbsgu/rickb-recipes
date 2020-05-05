@@ -56,7 +56,7 @@
     </div>
     <div v-if="showingImage" class="overlay fixed top-0 left-0 w-full h-full flex items-center">
       <div class="mx-auto w-1/2 border-2 border-gray-400 bg-white text-xl sm:w-3/4">
-        <img :src="'/images/' + $page.recipe.image" />
+        <img :src="'/images/' + getImageName($page.recipe.image)" />
         <div class="flex justify-between mx-4">
           <div>{{$page.recipe.title}}</div>
           <button class="text-green-600 hover:underline focus:outline-none"
@@ -105,14 +105,18 @@ query Recipe ($path: String!) {
 </style>
 
 <script>
+import GeneralImage from '@/mixins/GeneralImage'
+
 export default {
   data: ()=> ({
     showingImage: false
   }),
+  mixins: [GeneralImage],
   computed: {
     backgroundImageStyle: function() {
       if (process.isClient && window.innerWidth >= 640)
-        return 'background-image: url("/images/' + this.$page.recipe.image + '")'
+        return 'background-image: url("/images/' + 
+                this.getImageName(this.$page.recipe.image) + '")'
       
       return ''
     }

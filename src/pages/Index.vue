@@ -15,11 +15,11 @@
       </div>
       <div class="absolute w-full" ref="imgBlockCtnr">
         <div class="absolute grid grid-cols-4 shadow-xl sm:grid-cols-2" ref="imgBlock">
-          <g-image v-for="(imageName, ix) of gridImages" :key="ix"
-               :src="'/images/' + imageName + '.png'"
-               v-tooltip="{content:getTooltip(imageName),
+          <g-image v-for="(imageItem, ix) of gridImages" :key="ix"
+               :src="imageItem.imagePath"
+               v-tooltip="{content:getTooltip(imageItem.name),
                            placement:'bottom', offset:' w-9/12-50%'}"
-            @click="gotoRecipeforImage(imageName)"
+            @click="gotoRecipeforImage(imageItem.name)"
           />
         </div>
       </div>
@@ -57,6 +57,7 @@ query {
 
 <script>
 import Dialog from '@/components/Dialog'
+import GeneralImage from '@/mixins/GeneralImage'
 export default {
   metaInfo: {
     title: 'Welcome'
@@ -73,10 +74,16 @@ export default {
         "Gallette",
         "Shrimp in Lime and Garlic",
         "Hamburger and Onion on Dome Grill",
-        "Camp Potatoes on Lake Powell"
-    ]
+        "Camp Potatoes on Lake Powell",
+        "Pressure Pot Chicken Soup",
+        "Gluten Free Fiber Waffles",
+        "Egg Poacher",
+        "Blender Mayonnaise",
+        "Aglio Olio + Crispy Italian Chicken"
+    ]  
   }),
   components: { Dialog },
+  mixins: [GeneralImage],
   mounted() {
     let _this = this
     this.$nextTick(()=>{
@@ -91,27 +98,41 @@ export default {
     getTooltip(str) {
       return `<div class="bg-yellow-200 text-sm p-1 border-gray-600 border">${str}</div>`
     },
-    gotoRecipeforImage(imageName) {
-      let imageFull = imageName + '.png'
-      for (let edge of this.$page.recipes.edges) {
-        if (edge.node.image === imageFull) {
-          this.$router.push(edge.node.path)
-          return
-        }
-      }
-
-      this.showDialog("Oops...",
-           `<p>Sorry, no recipe yet for <em>${imageName}</em>.</p>
-            <p>Please come back later....</p>`)
-    },
     showDialog(title, message) {
       this.dlgTitle = title
       this.dlgMsg = message
       this.showDlg = true
     },
+    gotoRecipeforImage(imageName) {
+      let recipe = this.getRecipeForImage(imageName)
+
+      if (recipe)
+        this.$router.push(recipe.path)
+
+      else
+        this.showDialog("Oops...",
+           `<p>Sorry, no recipe yet for <em>${imageName}</em>.</p>
+            <p>Please come back later....</p>`)
+    },
+    getRecipeForImage(imageName) {
+      let imageFull = imageName + '.png'
+      for (let edge of this.$page.recipes.edges)
+        if (edge.node.image === imageFull)
+          return edge.node
+
+      return null
+    },
+    getImageNodeByName(imageName) {
+      for (let imageEdge of this.$page.images.edges)
+        if (imageEdge.node.name === imageName) {
+          return imageEdge.node
+        }
+
+      return null
+    },
     windowResized() {
       const IMG_ASPECT = window.innerWidth < 640? 1 : 2
-      let py = window.innerWidth < 640? 16 : 40
+      let padY= window.innerWidth < 640? 16 : 40
       let imgBlockCtnr = this.$refs.imgBlockCtnr,
           navBlock = this.$refs.navBlock,
           imgBlock = this.$refs.imgBlock,
@@ -124,18 +145,17 @@ export default {
       let imgBlockHeight, imgBlockWidth, imgBlockTopPos
 
       if (availableWidth / availableHeight > IMG_ASPECT) {
-        imgBlockHeight = availableHeight - py
+        imgBlockHeight = availableHeight - padY
         imgBlockWidth = imgBlockHeight * IMG_ASPECT
       } else {
         imgBlockWidth = availableWidth
         imgBlockHeight = imgBlockWidth / IMG_ASPECT
-        py = (availableHeight - imgBlockHeight) / 2
+        padY = (availableHeight - imgBlockHeight) / 2
       }
 
-      imgBlockTopPos = availableHeight - imgBlockHeight - py
+      imgBlockTopPos = availableHeight - imgBlockHeight - padY
       //
-      // geom values calculated, now set geom
-      //
+      // geom values calculated, now set geomavailableHeightmaxHeight = 
       homeCtnr.style.minHeight = homeCtnr.style.maxHeight = 
         (window.innerHeight - homeCtnr.offsetTop) + 'px'
 
@@ -156,12 +176,59 @@ export default {
   },
   computed: {
     gridImages: function() {
-      if (process.isClient && window.innerWidth < 640)
-        return this.GRID_IMAGES.slice(0, 4)
+      let images = []
+      if (process.isClient) {
+                // so what we want here is a random set of images
+                //
 
-      return this.GRID_IMAGES
+        let numImages = window.innerWidth < 640? 4 : 8
+
+        let imageNameSet = new Set()
+        let imageName, imageIX, imageNode
+
+        while (images.length < numImages) {
+          imageIX = Math.floor(Math.random() * this.GRID_IMAGES.length)
+          imageName = this.GRID_IMAGES[imageIX]
+          if (!imageNameSet.has(imageName)) {
+            imageNode = this.getImageNodeByName(imageName)
+            console.assert(imageNode !== null, "Bad name in GRID_IMAGES")
+            imageNameSet.add(imageName)
+            images.push({
+              name: imageNode.name,
+              imagePath: imageNode.path
+            })
+          }
+        }
+/*
+        // save following until enough recipes with unique images
+        // would still rather do this way, if possible
+        //
+        while (numImagesSet < numImages) {
+                  // get a set of random recipes
+                  //
+          recipeIX = Math.floor(Math.random() * numRecipes)
+          recipe = this.$page.recipes.edges[recipeIX].node
+          imageName = recipe.image.split('.')[0]
+          if (!imageNameSet.has(imageName)) {
+            for (let imageEdge of this.$page.images.edges) {
+              if (imageEdge.node.name === imageName) {
+                imageNameSet.add(imageName)   // bookkeeping
+                imageIX = imageIXArray[numImagesSet++]
+                images[imageIX] = {
+                  name: imageName,
+                  recipePath: recipe.path,
+                  imagePath:imageEdge.node.path 
+                  }
+                break;           
+              }
+            }
+          }
+        }
+*/
+      }
+
+      return images
     }
   }
 }
 </script>
-
