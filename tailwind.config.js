@@ -2,7 +2,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        display: ['Roboto', '"Helvetica Neue"', 'Arial', '"Noto Sans"', 'sans-serif']
+        display: ['Roboto', '"Helvetica Neue"', 'Arial', '"Noto Sans"', 'sans-serif'],
+        sans: ['"Helvetica Neue"', 'Arial', 'sans-serif', '"Apple Color Emoji"', '"Segoe UI Emoji"', '"Segoe UI Symbol"', '"Noto Color Emoji"']
       },
       spacing: {
         '300': '300px',

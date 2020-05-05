@@ -17,7 +17,7 @@
           <div
             class="flex border-2 border-gray-500 mt-4 rounded-r-xlbreakfasts/eggs-benedict/"
             v-for="(recipe, ix) in recipesForCategory" :key="ix">
-            <g-image style="height:120px;width:120px" :src="'/images/' + recipe.image"/>
+            <img style="height:120px;width:120px" :src="'/images/' + recipe.image"/>
             <div class="pl-4 py-2 text-2xl bg-yellow-100 rounded-r-xl w-full">
               <div> 
                 <g-link :to="recipe.path">
