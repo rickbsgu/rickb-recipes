@@ -5,7 +5,7 @@ author: Rick
 description: Gluten free waffles big on fiber.  Not fluffy.
 source: Self
 serves: 2
-image: "/images/Gluten Free Fiber Waffles.png"
+image: "Gluten Free Fiber Waffles"
 slug: "gluten-free-fiber-waffles"
 ---
 ### Description

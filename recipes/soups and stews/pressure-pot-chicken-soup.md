@@ -5,7 +5,7 @@ author: Rick
 source: Brother
 description: "Rich and flavorful soup, in relatively quick cook time."
 serves: 2
-image: "/images/Pressure Pot Chicken Soup.png"
+image: "Pressure Pot Chicken Soup"
 slug: "pressure-pot-chicken-soup"
 ---
 ### Description

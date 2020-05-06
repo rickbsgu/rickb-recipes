@@ -5,7 +5,7 @@ description: "The king of breakfast dishes.  It's a bright sunny day that starts
 author: Rick
 source: Various
 serves: 2
-image: "/images/Eggs Benedict.png"
+image: "Eggs Benedict"
 slug: "eggs-benedict"
 ---
 ### Description

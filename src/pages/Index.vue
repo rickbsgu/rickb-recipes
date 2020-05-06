@@ -117,12 +117,6 @@ export default {
 
       return null
     },
-    makeImagePathName(imageName) {
-      return 'https://res.cloudinary.com/rickbsgu/image/upload/' +
-             'c_scale,w_350,h_350/' +
-              imageName.replace(/ /g, '_') +
-              '.png'
-    },
     windowResized() {
       const IMG_ASPECT = window.innerWidth < 640? 1 : 2
       let padY= window.innerWidth < 640? 16 : 40
@@ -186,7 +180,7 @@ export default {
             imageNameSet.add(imageName)
             images.push({
               name: imageName,
-              imagePath: this.makeImagePathName(imageName)
+              imagePath: this.makeImagePathName(imageName, 350)
             })
           }
         }

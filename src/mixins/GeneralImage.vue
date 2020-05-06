@@ -6,20 +6,30 @@ export default {
   }),
   created() {
     this.GeneralImage_imageNames = new Set([
-      "What's in the Fridge"
+      "Whats in the Fridge"
     ])
   },
   methods: {
     isGeneralImage(imgName) {
       return this.GeneralImage_imageNames.has(imgName)
     },
-    getImageName(imageName) {
-      return !imageName? this.generalImageName : imageName
-    }
+    makeImagePathName(imageName, res) {
+      let retURL = 'https://res.cloudinary.com/rickbsgu/image/upload/'
+
+      if (!imageName)
+        imageName = this.generalImageName
+
+      if (res)
+        retURL += 'c_scale,w_' + res + ',h_' + res + '/'
+
+      retURL += imageName.replace(/ /g, '_') + '.png'
+
+      return retURL
+    },
   },
   computed: {
     generalImageName: function() {
-      return '/images/' + Array.from(this.GeneralImage_imageNames)[0] + '.png'
+      return Array.from(this.GeneralImage_imageNames)[0]
     }
   }
 }

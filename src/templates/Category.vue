@@ -17,7 +17,7 @@
           <div
             class="flex border-2 border-gray-500 mt-4 rounded-r-xl"
             v-for="(recipe, ix) in recipesForCategory" :key="ix">
-            <img style="height:120px;width:120px" :src="getImageName(recipe.image)"/>
+            <img :src="makeImagePathName(recipe.image, 120)"/>
             <div class="pl-4 py-2 pr-4 text-2xl bg-yellow-100 rounded-r-xl w-full">
               <div> 
                 <g-link :to="recipe.path">

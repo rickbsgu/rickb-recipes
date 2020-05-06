@@ -5,7 +5,7 @@ author: Rick
 description: Replacement for those little roasted chickens at the supermarket.  Easy and yummy.
 source: <a href="https://www.stephgaudreau.com/crispy-italian-chicken-thighs/" target="_blank">Steph Goudreau</a>
 serves: 2
-image: "/images/Aglio Olio + Crispy Italian Chicken.png"
+image: "Aglio Olio + Crispy Italian Chicken"
 slug: "crispy-italian-chicken-thighs"
 ---
 ### Description
