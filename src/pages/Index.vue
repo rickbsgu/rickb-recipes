@@ -29,14 +29,6 @@
 
 <page-query>
 query {
-  images:allImages {
-    edges {
-      node {
-        name
-        path
-      }
-    }
-  }
   categories:allCategory {
     edges {
       node {
@@ -125,13 +117,11 @@ export default {
 
       return null
     },
-    getImageNodeByName(imageName) {
-      for (let imageEdge of this.$page.images.edges)
-        if (imageEdge.node.name === imageName) {
-          return imageEdge.node
-        }
-
-      return null
+    makeImagePathName(imageName) {
+      return 'https://res.cloudinary.com/rickbsgu/image/upload/' +
+             'c_scale,w_350,h_350/' +
+              imageName.replace(/ /g, '_') +
+              '.png'
     },
     windowResized() {
       const IMG_ASPECT = window.innerWidth < 640? 1 : 2
@@ -193,12 +183,10 @@ export default {
           imageIX = Math.floor(Math.random() * this.GRID_IMAGES.length)
           imageName = this.GRID_IMAGES[imageIX]
           if (!imageNameSet.has(imageName)) {
-            imageNode = this.getImageNodeByName(imageName)
-            console.assert(imageNode !== null, "Bad name in GRID_IMAGES")
             imageNameSet.add(imageName)
             images.push({
-              name: imageNode.name,
-              imagePath: imageNode.path
+              name: imageName,
+              imagePath: this.makeImagePathName(imageName)
             })
           }
         }

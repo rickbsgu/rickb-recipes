@@ -6,22 +6,6 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 const fs = require('fs')
 
-function makeImagesCollection(actions) {
-    let dir = fs.opendirSync(process.cwd() + '/static/images')
-    let fd, fn, nameParts
-    const imagesColl = actions.addCollection('images')
-    while (!!(fd = dir.readSync())) {
-      fn = fd.name
-      nameParts = fn.split('.')
-      imagesColl.addNode({
-        name: nameParts[0],
-        path: '/images/' + fn
-      })
-    }
-
-    dir.close()
-}
-
 function makeCategoriesCollection(actions) {
   let recipes = actions.getCollection("Recipe")
   let categories = actions.addCollection("Category")
@@ -49,7 +33,6 @@ function makeCategoriesCollection(actions) {
 
 module.exports = function (api) {
   api.loadSource((actions) => {
-    makeImagesCollection(actions)
     makeCategoriesCollection(actions)
     console.log('created collections')
   })
