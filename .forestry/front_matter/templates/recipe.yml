@@ -58,3 +58,5 @@ fields:
       file: 
       path: 
   label: author
+pages:
+- recipes/italian/carbonara.md
