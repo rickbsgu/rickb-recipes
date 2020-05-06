@@ -19,6 +19,7 @@
 ---
 title: "Hollandaise"
 date: 2020-04-28
+description: "Hollandaise is one of the four basic sauces."
 author: Rick
 source: Various
 serves: 2
@@ -26,6 +27,8 @@ image: ""
 slug: "hollandaise"
 ---
 <!---
+ | Strings with spaces require double quotes.
+ | 
  | Header Entries Explanation:
  |
  | title: "Hollandaise"
@@ -39,17 +42,19 @@ slug: "hollandaise"
  |      <a href="https://source.com/blog/entry">Bob Jones</a>
  |
  | serves: 2
- |   Must be a number!!
+ |   Must be a number!! Cannot be in quotes.
  |
  | image: ""
- |   If you don't have an image, leave it blank - a default will be used.
+ |   If you don't have an image, leave it to the empty string ("")
+ |   A default will be used.
  |
  | slug: "hollandaise"
  |   the _slug_ is the final part of the link, for instance in this link:
  |     
  |      https://<hostname.com>/recipe/sausage-and-peppers
  |
- |   the _slug_ is 'sausage-and-peppers'
+ |   the _slug_ is 'sausage-and-peppers'  It should be the same as
+ |   the filename without the '.md' suffix
  -->
 ---
 ### Description
