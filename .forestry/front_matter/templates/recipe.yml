@@ -44,11 +44,11 @@ fields:
   description: Add a short description
 - name: author
   type: select
-  default: []
+  default: rick
   config:
     required: false
     options:
-    - rickb
+    - rick
     - rose
     source:
       type: simple
