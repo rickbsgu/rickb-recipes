@@ -50,8 +50,8 @@ fields:
   config:
     required: false
     options:
-    - rick
-    - rose
+    - Rick
+    - Rose
     source:
       type: simple
       section: 
