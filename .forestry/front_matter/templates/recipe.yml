@@ -7,6 +7,7 @@ fields:
   label: title
   config:
     required: true
+  description: Capitalize first word
 - type: datetime
   name: date
   label: date
@@ -21,12 +22,14 @@ fields:
   label: serves
   config:
     required: true
+  default: 2
 - type: file
   name: image
   label: image
 - type: text
   name: slug
   label: slug
+  description: same as title, lower-case, words delimited with hyphen
 - name: description
   type: textarea
   default: ''
