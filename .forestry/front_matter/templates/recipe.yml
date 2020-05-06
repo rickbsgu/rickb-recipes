@@ -5,24 +5,48 @@ fields:
 - type: text
   name: title
   label: title
+  config:
+    required: true
 - type: datetime
   name: date
   label: date
-- type: text
-  name: description
-  label: description
-- type: text
-  name: author
-  label: author
+  config:
+    required: true
+  default: now
 - type: text
   name: source
   label: source
 - type: number
   name: serves
   label: serves
+  config:
+    required: true
 - type: file
   name: image
   label: image
 - type: text
   name: slug
   label: slug
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: description
+- name: author
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - rickb
+    - rose
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: author
