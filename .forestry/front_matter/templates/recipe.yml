@@ -60,3 +60,4 @@ fields:
   label: author
 pages:
 - recipes/italian/carbonara.md
+- recipes/tips/on-quantities.md
