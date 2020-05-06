@@ -9,6 +9,8 @@ slug: on-quantities
 description: A few thoughts on quantities/technique
 
 ---
+### Discussion
+
 I'm very much a "touchy-feely" cook.  I'm constantly tasting, checking consistency, adjusting as I go.
 
 That's a technique/habit I picked up from my Mom.
