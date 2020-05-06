@@ -1,5 +1,5 @@
 ---
-date: 2020-05-06T12:51:35-06:00
+date: 2020-05-06T18:51:35.000+00:00
 serves: 1
 author: Rick
 title: On Quantities
@@ -15,16 +15,30 @@ I'm very much a "touchy-feely" cook.  I'm constantly tasting, checking consisten
 
 That's a technique/habit I picked up from my Mom.
 
-If you're a strict recipe follower, you may find the recipes in here a bit frustrating.  While I've tried to provide reasonable quantities, individual tastes are just different.  I provide what I think works for me - you mileage may vary.
+#### Tastes Vary - Personal Adjustments
 
-If it is any consolation or even inspiration, my spouse used to be a strict 'by-the-numbers' recipe follower, and yes, she was frustrated - even derisive - of my cooking technique.
+If you're a strict recipe follower, you may find the recipes in here a bit frustrating.  While I've tried to provide reasonable quantities, you have to consider them as "suggestions".
 
-Then she went to _Cordon Bleu_ in Paris, and quickly learned that nothing is 'by-the-numbers'.  Well, maybe except for pastry.
+individual tastes are just different.  I provide quantities and ingredients that I think works for me - your mileage may vary.
 
-An exchange between a student and an instructor at _Cordon Blue_ is illustrative:
+#### A Stint at _Cordon Bleu_
 
-Student: "How long do you let it cook?"
+If it is any consolation or even, perhaps, inspirational, my spouse used to be a strict 'by-the-numbers' recipe follower.  She was fond of saying, "If you can read, you can cook!"
 
-Instructor (with a shrug): "Until it is done..."
+And yes, she was frustrated - even derisive - of my cooking technique.
 
-As a post-script, my spouse is no longer strictly 'by-the-numbers', and now does things in the kitchen that are much more imaginative and wonderful than I could ever do.
+Then she spent a considerable amount of time and money to attend _Cordon Bleu_ in Paris, and quickly learned that nothing is 'by-the-numbers'.
+
+Well, maybe except for pastry.
+
+But, in the _cuisine_ syllabus, it is not so.  An exchange she relates between a student and an instructor at _Cordon Blue_ is illustrative:
+
+> Student: "How long do you let it cook?"
+>
+> Instructor (with a shrug): "Until it is done..."
+
+#### Post-Script
+
+My spouse is no longer a strictly 'by-the-numbers' cook.
+
+That's somewhat a vindication for my technique, except she's far and beyond my capabilities - she now does things in the kitchen that are much more imaginative and wonderful than I could ever do.
