@@ -233,9 +233,8 @@ export default {
     },
     categories: function() {
       let categories = []
-      debugger
+
       for (let edge of this.$page.categories.edges) {
-        debugger
         if (!this.excludedCategory(edge.node.name))
           categories.push(edge.node.name)
       }

@@ -27,7 +27,7 @@
       <g-link class="block text-yellow-200 text-xl" to="/">Home</g-link>
       <g-link class="block mt-2 text-yellow-200 text-xl" to="/about/">About</g-link>
     </div>
-  <slot/>
+    <slot/>
   </div>
 </template>
 
