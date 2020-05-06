@@ -11,13 +11,13 @@ description: Invented by the Italians, improved by the French, and perfected by 
 ---
 ### Description
 
-Invented by the Italians, improved by the French, and perfected by Moi!!
+> Invented by the Italians, improved by the French, and perfected by Moi!!
 
-This is not a light dish.  Forget diets, calorie counting, cholesterol watching, or anything else considered "healthy".
+This is not a light dish.  Forget diets, calorie counting, cholesterol watching, or anything else considered "healthy".  The goal here is a rich, satisfying meal.
 
-The frech add the egg yolk.  I think it's a great addition.
+The French are responsible for adding the egg yolk.  You can leave it out, but it really enriches the sauce.  I think it's a great addition.
 
-Traditionally, carbonara does not have mushrooms.  We like mushrooms.  Some french restaurants serve it with mushrooms, some don't.
+Traditionally, carbonara does not have mushrooms.  We like mushrooms.  Some French restaurants serve it with mushrooms, some don't.
 
 We like mushrooms.
 
@@ -29,7 +29,7 @@ We like mushrooms.
 * 3/4C heavy cream
 * 3 slices thick cut bacon - ham also works
 * 1 italian sausage
-* 8-10 mushrooms, medium slices
+* 12-14 mushrooms, medium slices
 
 ### Method
 
@@ -55,5 +55,5 @@ We like mushrooms.
 ### Notes
 
 1. The key is timing.  Watch the pasta, cream, and skillet contents closely - you want to bring it all together at once.
-2. The other key is cooking the meat and mushrooms separately.  Mushrooms should be cooked in butter, not pork fat.
+2. The other key is cooking the meat and mushrooms separately.  You don't want the mushrooms tainted with pork fat.
 3. The cream _must_ be hot - close to boiling - to cook the egg yolk.
