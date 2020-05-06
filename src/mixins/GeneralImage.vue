@@ -19,7 +19,8 @@ export default {
   },
   computed: {
     generalImageName: function() {
-      return Array.from(this.GeneralImage_imageNames)[0]
+      return 
+        '/images/' + Array.from(this.GeneralImage_imageNames)[0]
     }
   }
 }

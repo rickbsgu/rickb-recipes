@@ -56,7 +56,7 @@
     </div>
     <div v-if="showingImage" class="overlay fixed top-0 left-0 w-full h-full flex items-center">
       <div class="mx-auto w-1/2 border-2 border-gray-400 bg-white text-xl sm:w-3/4">
-        <img :src="'/images/' + getImageName($page.recipe.image)" />
+        <img :src="getImageName($page.recipe.image)" />
         <div class="flex justify-between mx-4">
           <div>{{$page.recipe.title}}</div>
           <button class="text-green-600 hover:underline focus:outline-none"
@@ -115,7 +115,7 @@ export default {
   computed: {
     backgroundImageStyle: function() {
       if (process.isClient && window.innerWidth >= 640)
-        return 'background-image: url("/images/' + 
+        return 'background-image: url("' +
                 this.getImageName(this.$page.recipe.image) + '")'
       
       return ''

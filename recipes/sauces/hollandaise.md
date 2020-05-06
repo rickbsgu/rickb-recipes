@@ -5,7 +5,7 @@ description: "One of the four basic sauces. It's a bit tricky to master, but inc
 author: Rick
 source: Various
 serves: 2
-image: "Eggs Benedict.png"
+image: "/images/Eggs Benedict.png"
 slug: "hollandaise"
 ---
 ### Description
