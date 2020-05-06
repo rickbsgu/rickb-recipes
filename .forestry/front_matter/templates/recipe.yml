@@ -30,6 +30,8 @@ fields:
   name: slug
   label: slug
   description: same as title, lower-case, words delimited with hyphen
+  config:
+    required: true
 - name: description
   type: textarea
   default: ''
