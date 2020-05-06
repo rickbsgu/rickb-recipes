@@ -1,0 +1,28 @@
+---
+label: Recipe
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: description
+  label: description
+- type: text
+  name: author
+  label: author
+- type: text
+  name: source
+  label: source
+- type: number
+  name: serves
+  label: serves
+- type: file
+  name: image
+  label: image
+- type: text
+  name: slug
+  label: slug
