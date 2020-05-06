@@ -11,7 +11,7 @@
             {{$page.recipe.title}}
           </h1>
       </div>
-      <div class="recipe-subctnr w-8/12 px-12
+      <div class="recipe-subctnr w-8/12 px-12 pb-8
                   rounded-b-xl text-gray-800 border-2 border-gray-600
                   border-t-0 text-lg text-justify sm:w-full
                   sm:text-gray-600"

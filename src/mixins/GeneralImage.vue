@@ -14,13 +14,12 @@ export default {
       return this.GeneralImage_imageNames.has(imgName)
     },
     getImageName(imageName) {
-      return !imageName? this.generalImageName + '.png' : imageName
+      return !imageName? this.generalImageName : imageName
     }
   },
   computed: {
     generalImageName: function() {
-      return 
-        '/images/' + Array.from(this.GeneralImage_imageNames)[0]
+      return '/images/' + Array.from(this.GeneralImage_imageNames)[0] + '.png'
     }
   }
 }

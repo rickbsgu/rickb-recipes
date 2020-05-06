@@ -1,7 +1,7 @@
 ---
 date: 2020-05-06T12:51:35-06:00
 serves: 1
-author: rick
+author: Rick
 title: On Quantities
 source: Self
 image: ''
@@ -23,7 +23,7 @@ Then she went to _Cordon Bleu_ in Paris, and quickly learned that nothing is 'by
 
 An exchange between a student and an instructor at _Cordon Blue_ is illustrative:
 
-Student: "How long to do let it cook?"
+Student: "How long do you let it cook?"
 
 Instructor (with a shrug): "Until it is done..."
 
