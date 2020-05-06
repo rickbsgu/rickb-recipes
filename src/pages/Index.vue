@@ -117,9 +117,10 @@ export default {
             <p>Please come back later....</p>`)
     },
     getRecipeForImage(imageName) {
-      let imageFull = imageName + '.png'
       for (let edge of this.$page.recipes.edges)
-        if (edge.node.image === imageFull)
+        if (
+          edge.node.image &&
+          edge.node.image.indexOf(imageName) !== -1)
           return edge.node
 
       return null
