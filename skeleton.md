@@ -22,14 +22,34 @@ date: 2020-04-28
 author: Rick
 source: Various
 serves: 2
-image: "Eggs Benedict.png"
+image: ""
 slug: "hollandaise"
-<!--- 
- | the _slug_ is the final part of the link, for instance in this link:
- |     
- |    https://<hostname.com>/recipe/sausage-and-peppers
+---
+<!---
+ | Header Entries Explanation:
  |
- | the _slug_ is 'sausage-and-peppers'
+ | title: "Hollandaise"
+ | date: 2020-04-28
+ | author: Rick
+ |   The above are self-explanatory
+ |
+ | source: Various
+ |   If a url, specify a full html anchor, like:
+ |
+ |      <a href="https://source.com/blog/entry">Bob Jones</a>
+ |
+ | serves: 2
+ |   Must be a number!!
+ |
+ | image: ""
+ |   If you don't have an image, leave it blank - a default will be used.
+ |
+ | slug: "hollandaise"
+ |   the _slug_ is the final part of the link, for instance in this link:
+ |     
+ |      https://<hostname.com>/recipe/sausage-and-peppers
+ |
+ |   the _slug_ is 'sausage-and-peppers'
  -->
 ---
 ### Description
@@ -65,11 +85,13 @@ or
  |
  | Measurement unit abbreviations should be consistent and are:
  |
- |  T - tablespoon
- |  t - teaspoon
- |  c - cup
- |  lb | pound
- |  oz | ounce
+ |    T - tablespoon
+ |    t - teaspoon
+ |    C - cup
+ |    lb | pound
+ |    oz | ounce
+ |
+ |  Don't suffix any with 's'
  -->
 
 * 1 egg yolk per serving.
@@ -86,7 +108,7 @@ or
  | specify a list item.
  |
  | Note you can't put a line break in an item - line breaks
- | Define a new item or paragraph.  Turn wrap on in your editor
+ | Define a new item or paragraph.  Turn "wrap" on in your editor
  | to see the full line.
  |
  | For side steps, you can embed a bullet list.  See the example
@@ -99,7 +121,9 @@ or
 1. Mix the egg yolks and water in the bowl.
 1. Place the bowl over the pan.
 1. Start beating the mix with a whisk.  __DO NOT__ take your attention off this.  _If_ you have to do something else (for a moment), take the bowl off the pan and return it when you're done.
-1. The mixture will froth up a bit and expand.  This is good.
+  * This is a side step
+  * This is another side step
+6. The mixture will froth up a bit and expand.  This is good.
 1. As the mixture just starts to set &ndash; you'll see light folds between the whisk strokes &ndash; but _before_ you can see the bottom of the bowl between whisk strokes), add butter one piece at a time, whisking constantly.
 1. Add salt and continue to stir until dissolved.
 1. When all of the butter is incorporated and the sauce is smooth, add salt and sprinkle in lemon juice &ndash; taste just until the tang is right.
