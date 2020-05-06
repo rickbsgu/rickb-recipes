@@ -6,7 +6,7 @@ export default {
   }),
   created() {
     this.GeneralImage_imageNames = new Set([
-      "What's in the Fridge?"
+      "What's in the Fridge"
     ])
   },
   methods: {
