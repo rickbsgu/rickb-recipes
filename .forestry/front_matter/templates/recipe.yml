@@ -35,7 +35,10 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
+    min: 10
+    max: 256
   label: description
+  description: Add a short description
 - name: author
   type: select
   default: []
