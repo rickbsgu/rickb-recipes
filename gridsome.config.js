@@ -16,6 +16,19 @@ module.exports = {
     },
     {
       use: 'gridsome-plugin-tailwindcss'
+    },
+    {
+      use: 'gridsome-plugin-flexsearch',
+      options: {
+        collections: [
+          {
+            typeName: 'Recipe',
+            indexName: 'Recipe',
+            fields: ['title', 'category', 'path', 'image', 'description']
+          }
+        ],
+        searchFields: ['title', 'category', 'content']
+      }
     }
   ],
   templates: {

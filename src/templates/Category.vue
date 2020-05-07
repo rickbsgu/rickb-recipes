@@ -14,18 +14,10 @@
           <div class="flex justify-center"> <!-- separator -->
             <div class="bg-gray-500 mt-8 mb-4 w-1/2" style="min-height:2px"/>
           </div>
-          <div
-            class="flex border-2 border-gray-500 mt-4 rounded-r-xl"
-            v-for="(recipe, ix) in recipesForCategory" :key="ix">
-            <img :src="makeImagePathName(recipe.image, 120)"/>
-            <div class="pl-4 py-2 pr-4 text-2xl bg-yellow-100 rounded-r-xl w-full">
-              <div> 
-                <g-link :to="recipe.path">
-                  {{recipe.title}}
-                </g-link>
-              </div>
-            <p class="sm:text-sm">{{recipe.description}}</p>
-            </div>
+          <template
+            v-for="(recipe, ix) in recipesForCategory">
+              <RecipeItem :recipe="recipe" :key="ix" />
+            </template>
           </div>
         </div>
       </div>
@@ -52,10 +44,12 @@ query {
 <script>
 import GeneralImage from '@/mixins/GeneralImage'
 import CategoryExclusions from '@/mixins/CategoryExclusions'
+import RecipeItem from '@/components/RecipeItem'
 
 export default {
   methods: {
   },
+  components: { RecipeItem },
   mixins: [GeneralImage, CategoryExclusions],
   computed: {
     recipesForCategory: function() {

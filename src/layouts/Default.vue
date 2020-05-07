@@ -16,6 +16,11 @@
         </button>
       </div>
       <nav class="sm:hidden">
+        <g-link class="px-4" to="/search">
+          <svg class="inline h-6 w-6 fill-current" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" d="M 9 2 C 5.1458514 2 2 5.1458514 2 9 C 2 12.854149 5.1458514 16 9 16 C 10.747998 16 12.345009 15.348024 13.574219 14.28125 L 14 14.707031 L 14 16 L 20 22 L 22 20 L 16 14 L 14.707031 14 L 14.28125 13.574219 C 15.348024 12.345009 16 10.747998 16 9 C 16 5.1458514 12.854149 2 9 2 z M 9 4 C 11.773268 4 14 6.2267316 14 9 C 14 11.773268 11.773268 14 9 14 C 6.2267316 14 4 11.773268 4 9 C 4 6.2267316 6.2267316 4 9 4 z" />
+          </svg>
+        </g-link>
         <g-link class="px-4 text-xl" to="/category/tips">Tips</g-link>
         <g-link class="px-4 text-xl" to="/">Home</g-link>
         <g-link class="px-4 text-xl" to="/about/">About</g-link>
@@ -23,6 +28,11 @@
     </header>
     <div v-if="showDropDown" class="fixed z-10 right-0 bg-green-600 w-2/12 text-right
                                     px-4 pt-2 pb-4 mr-4 -mt-2">
+      <g-link class="px-4" to="/search">
+        <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+          <path fill-rule="evenodd" d="M 9 2 C 5.1458514 2 2 5.1458514 2 9 C 2 12.854149 5.1458514 16 9 16 C 10.747998 16 12.345009 15.348024 13.574219 14.28125 L 14 14.707031 L 14 16 L 20 22 L 22 20 L 16 14 L 14.707031 14 L 14.28125 13.574219 C 15.348024 12.345009 16 10.747998 16 9 C 16 5.1458514 12.854149 2 9 2 z M 9 4 C 11.773268 4 14 6.2267316 14 9 C 14 11.773268 11.773268 14 9 14 C 6.2267316 14 4 11.773268 4 9 C 4 6.2267316 6.2267316 4 9 4 z" />
+        </svg>
+      </g-link>
       <g-link class="block text-yellow-200 text-xl" to="/category/tips">Tips</g-link>
       <g-link class="block text-yellow-200 text-xl" to="/">Home</g-link>
       <g-link class="block mt-2 text-yellow-200 text-xl" to="/about/">About</g-link>
