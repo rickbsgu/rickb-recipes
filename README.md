@@ -37,7 +37,7 @@ And, if you want to do it efficiently, you will want:
 * A cloud storage image solution that can provide multiple resolution images from your base image on the fly
 * A CMS to allow normal users to enter content
 
-The following is what I consider to be the minimum frameworks/services necessary to implment a professional solution (all of the services listed here are either free or have a free tier for exploration):
+The following is what I consider to be the minimum frameworks/services necessary to implement a professional solution (all of the services listed here are either free or have a free tier for exploration):
 
 ### [Vue.js](https://vuejs.org)
 
