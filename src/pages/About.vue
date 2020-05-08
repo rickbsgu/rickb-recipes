@@ -4,7 +4,8 @@
       <div class="w-10/12">
         <div class="w-full flex justify-center">
           <div class="w-5/12 mt-8 mb-4 p-2">
-            <g-image class="shadow" src="/images/In Paris with Bagette and Wine.png" />
+            <g-image class="shadow" 
+              :src="makeImagePathName('In Paris with Bagette and Wine')" />
             <p class="text-center text-sm pt-1">Your's truly, returning from market in Paris with the necessities</p>
           </div>
         </div>
@@ -27,9 +28,15 @@
 </template>
 
 <script>
+import GeneralImage from '@/mixins/GeneralImage'
 export default {
-  metaInfo: {
-    title: 'About'
-  }
+  metaInfo() { return {
+      title: 'About',
+      meta: [
+        { name: 'description', content: 'A personal collection of recipes' }
+      ]
+    }
+  },
+  mixins: [GeneralImage]
 }
 </script>

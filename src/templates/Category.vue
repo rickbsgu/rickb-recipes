@@ -5,7 +5,8 @@
         <div>
           <div class="font-thin italic text-6xl pt-2 text-center text-green-600 capitalize
                       sm:text-4xl">{{ $context.categoryName }}
-          <sub v-if="!excludedCategory($context.categoryName)" class="font-normal text-gray-600 text-3xl -ml-4 sm:text-2xl">Recipes</sub></div>
+            <sub v-if="!excludedCategory($context.categoryName)" class="font-normal text-gray-600 text-3xl -ml-4 sm:text-2xl">Recipes</sub>
+          </div>
         </div>
         <div class="px-8 sm:px-0">
           <div class="border-4 bg-yellow-100 border-gray-500 py-4 px-8 rounded-xl mt-8"
@@ -17,8 +18,7 @@
           <template
             v-for="(recipe, ix) in recipesForCategory">
               <RecipeItem :recipe="recipe" :key="ix" />
-            </template>
-          </div>
+          </template>
         </div>
       </div>
     </div>
@@ -47,7 +47,16 @@ import CategoryExclusions from '@/mixins/CategoryExclusions'
 import RecipeItem from '@/components/RecipeItem'
 
 export default {
-  methods: {
+  metaInfo() {
+    return {
+      title: this.$context.categoryName.charAt(0).toUpperCase() +
+             this.$context.categoryName.slice(1),
+      meta: [
+        { name: 'description',
+          content: 'A list of ' + this.$context.categoryName + ' recipes'
+        }
+      ]
+    }
   },
   components: { RecipeItem },
   mixins: [GeneralImage, CategoryExclusions],

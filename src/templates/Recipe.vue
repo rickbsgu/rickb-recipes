@@ -78,6 +78,7 @@ query Recipe ($path: String!) {
     serves
     content
     category
+    description
   }
 }
 </page-query>
@@ -112,6 +113,13 @@ export default {
     showingImage: false
   }),
   mixins: [GeneralImage],
+  metaInfo() { return {
+      title: this.$page.recipe.title,
+      meta: [
+        { name: 'description', content: this.$page.recipe.description }
+      ]
+    }
+  },
   computed: {
     backgroundImageStyle: function() {
       if (process.isClient && window.innerWidth >= 640)
