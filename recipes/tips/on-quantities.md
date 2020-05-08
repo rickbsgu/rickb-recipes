@@ -19,26 +19,15 @@ That's a technique/habit I picked up from my Mom.
 
 If you're a strict recipe follower, you may find the recipes in here a bit frustrating.  While I've tried to provide reasonable quantities, you have to consider them as "suggestions".
 
-individual tastes are just different.  I provide quantities and ingredients that I think works for me - your mileage may vary.
+Individual tastes are just different.  I provide quantities and ingredients that I think works for me - your mileage may vary.
 
-#### A Stint at _Cordon Bleu_
+#### Find Your Own Taste
 
-If it is any consolation or even, perhaps, inspirational, my spouse used to be a strict 'by-the-numbers' recipe follower.  She was fond of saying, "If you can read, you can cook!"
+Use these recipes as a starting point.  Experiment and find out the quantities (and perhaps cook times and other factors) that work for you.
 
-And yes, she was frustrated - even derisive - of my cooking technique.
+Cooking is a dynamic activity &ndash; I'm still tweaking recipes that I've made for years.  It's a continual learning process for me, and it will be for you.  If it isn't, you're not doing it right.
 
-Then she spent a considerable amount of time and money to attend _Cordon Bleu_ in Paris, and quickly learned that nothing is 'by-the-numbers'.
+Share thoughts with me in the comments section.  If you come up with something better, I'm not above updating the recipe with something that works better.
 
-Well, maybe except for pastry.
-
-But, in the _cuisine_ syllabus, it is not so.  An exchange she relates between a student and an instructor at _Cordon Blue_ is illustrative:
-
-> Student: "How long do you let it cook?"
->
-> Instructor (with a shrug): "Until it is done..."
-
-#### Post-Script
-
-My spouse is no longer a strictly 'by-the-numbers' cook.  She now does things in the kitchen that are much more imaginative and wonderful than I could ever do, and she does it pretty much on the fly.
-
-To be sure, I've learned a lot by "osmosis from association" &ndash, it's a real perq having access to someone who is attending _the_ premier cooking school in the world (and the homework is right tasty...)
+Cheers,
+rickb
