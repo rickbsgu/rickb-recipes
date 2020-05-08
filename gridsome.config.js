@@ -24,10 +24,15 @@ module.exports = {
           {
             typeName: 'Recipe',
             indexName: 'Recipe',
-            fields: ['title', 'category', 'path', 'image', 'description']
+            fields: ['title', 'path', 'image', 'description']
           }
         ],
-        searchFields: ['title', 'category', 'content']
+        searchFields: ['category', 'title', 'content'],
+    encode: "balance",
+    tokenize: "strict",
+    threshold: 0,
+    resolution: 3,
+    depth: 3
       }
     }
   ],

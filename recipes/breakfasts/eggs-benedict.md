@@ -20,7 +20,7 @@ A classic breakfast to brighten any morning.
 
 * [Hollandaise Sauce](/recipes/sauces/hollandaise)
 * eggs
-* ham (or spinach, for _Eggs Florentine_)
+* Canadian bacon (ham works ok, too) (or spinach, for _Eggs Florentine_)
 * [Hash Browns](/recipes/sides/hash-browns)
 * English muffins
 
@@ -31,7 +31,7 @@ A classic breakfast to brighten any morning.
 1. Layer with ham slice or spinach
 1. Place one poached egg on each assembly
 1. Smother with hollandaise
-1. Add hash browns
+1. Add hash browns on the side
 1. Serve _immediately_
 
 ### Notes

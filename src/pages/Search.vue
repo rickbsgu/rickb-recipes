@@ -32,9 +32,8 @@ export default {
       if (process.isClient) {
         const searchTerm = this.searchTerm
         if (searchTerm.length > 2) {
-          let results = this.$search.search({ query: searchTerm })
+          let results = this.$search.search({ query: searchTerm, limit: 10 })
           recipes = results.filter((result)=> result.path.indexOf('category') === -1)
-          debugger
         }
       }
 
