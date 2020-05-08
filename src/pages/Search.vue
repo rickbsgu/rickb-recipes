@@ -1,20 +1,24 @@
 <template>
   <Layout>
-    <div class="text-2xl text-center py-8">
-      <label class="mr-8" for="search-input">Input search term:</label>
-      <input
-        id="search"
-        name="search-input"
-        v-model="searchTerm"
-        class="input"
-        type="text"
-        placeholder="Search">
-    </div>
-    <div>
-      <template
-        v-for="(recipe, ix) in searchResults">
-        <RecipeItem :key="ix" :recipe="recipe" />
-      </template>
+    <div class="flex w-full justify-center">
+      <div class="w-8/12">
+        <div class="text-2xl py-8 text-center">
+          <label class="mr-8" for="search-input">Input search term:</label>
+          <input
+            id="search"
+            name="search-input"
+            v-model="searchTerm"
+            class="input"
+            type="text"
+            placeholder="Search">
+        </div>
+        <div>
+          <template
+            v-for="(recipe, ix) in searchResults">
+            <RecipeItem :key="ix" :recipe="recipe" />
+          </template>
+        </div>
+      </div>
     </div>
   </Layout>
 </template>
@@ -22,6 +26,14 @@
 <script>
 import RecipeItem from '@/components/RecipeItem'
 export default {
+  metaInfo() { 
+    return {
+      title: 'Search',
+      meta: [
+        { name: 'description', content: 'Search for recipes'}
+      ]
+    }
+  },
   data: () => ({
     searchTerm: ''
   }),
