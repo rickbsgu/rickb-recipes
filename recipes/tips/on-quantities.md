@@ -39,6 +39,6 @@ But, in the _cuisine_ syllabus, it is not so.  An exchange she relates between a
 
 #### Post-Script
 
-My spouse is no longer a strictly 'by-the-numbers' cook.
+My spouse is no longer a strictly 'by-the-numbers' cook.  She now does things in the kitchen that are much more imaginative and wonderful than I could ever do, and she does it pretty much on the fly.
 
-That's somewhat a vindication for my technique, except she's far and beyond my capabilities - she now does things in the kitchen that are much more imaginative and wonderful than I could ever do.
+To be sure, I've learned a lot by "osmosis from association" &ndash, it's a real perq having access to someone who is attending _the_ premier cooking school in the world (and the homework is right tasty...)
