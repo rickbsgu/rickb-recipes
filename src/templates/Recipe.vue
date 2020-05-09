@@ -34,7 +34,7 @@
             <div class="table">
               <div class="table-row">
                 <div class="table-cell px-0" style="width:10%"><h4 class="text-right">Date:</h4></div>
-                <div class="table-cell px-2 text-base text-left sm:text-sm" style="width:20%">{{$page.recipe.date}}</div>
+                <div class="table-cell px-2 text-base text-left sm:text-sm" style="width:20%">{{date}}</div>
                 <div class="table-cell" style="width:20%"/>
                 <div class="table-cell px-0" style="width:10%"><h4 class="text-right">Source:</h4></div>
                 <div class="table-cell px-2 text-base text-left sm:text-sm" style="width:40%" v-html="$page.recipe.source"></div>
@@ -50,7 +50,7 @@
           </div>
           <div class="recipe-content pl-4" v-html="$page.recipe.content">
           </div>
-          <Comments url="true"
+          <Comments :url="true"
                     :id="$page.recipe.slug"/>
         </div>
       </div>
@@ -74,7 +74,7 @@ query Recipe ($path: String!) {
   recipe: recipe (path: $path) {
     slug
     title
-    date (format: "D-MMM-YYYY")
+    date
     author
     source
     image
@@ -132,6 +132,11 @@ export default {
                 this.makeImagePathName(this.$page.recipe.image) + '")'
       
       return ''
+    },
+    date: function() {
+      let mdate = this.$moment(this.$page.recipe.date)
+      return process.isClient && window.innerWidth < 640?
+        mdate.format("MM/DD/YY") : mdate.format("DD-MMM-YYYY")
     }
   },
   methods: {
