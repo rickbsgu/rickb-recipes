@@ -6,6 +6,7 @@
 
 module.exports = {
   siteName: 'Rickb Recipes',
+  siteUrl: 'https://rickb-recipes.netlify.app',
   plugins: [
     {
       use: '@gridsome/source-filesystem',
@@ -45,7 +46,7 @@ module.exports = {
       use: '@gridsome/plugin-sitemap',
       options: {
         cacheTime: 600000, // default
-        exclude: [],
+        exclude: ['/search'],
         config: {
           '/recipes/*': {
             changefreq: 'weekly',

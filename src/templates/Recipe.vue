@@ -50,6 +50,8 @@
           </div>
           <div class="recipe-content pl-4" v-html="$page.recipe.content">
           </div>
+          <Comments url="true"
+                    :id="$page.recipe.slug"/>
         </div>
       </div>
       </div>
@@ -70,6 +72,7 @@
 <page-query>
 query Recipe ($path: String!) {
   recipe: recipe (path: $path) {
+    slug
     title
     date (format: "D-MMM-YYYY")
     author
@@ -107,12 +110,14 @@ query Recipe ($path: String!) {
 
 <script>
 import GeneralImage from '@/mixins/GeneralImage'
+import Comments from '@/components/Comments'
 
 export default {
   data: ()=> ({
     showingImage: false
   }),
   mixins: [GeneralImage],
+  components: { Comments },
   metaInfo() { return {
       title: this.$page.recipe.title,
       meta: [
