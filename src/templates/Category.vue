@@ -9,16 +9,17 @@
           </div>
         </div>
         <div class="px-8 sm:px-0">
-          <div class="border-4 bg-yellow-100 border-gray-500 py-4 px-8 rounded-xl mt-8"
+          <div class="border-4 bg-yellow-100 border-gray-500 py-4 px-8 rounded-xl mt-8
+                      sm:rounded-none sm:border-l-0 sm:border-r-0"
               v-html="$context.categoryContent">
           </div>
           <div class="flex justify-center"> <!-- separator -->
             <div class="bg-gray-500 mt-8 mb-4 w-1/2" style="min-height:2px"/>
           </div>
-          <template
-            v-for="(recipe, ix) in recipesForCategory">
-              <RecipeItem :recipe="recipe" :key="ix" />
-          </template>
+          <div class="sm:px-4"
+            v-for="(recipe, ix) in recipesForCategory" :key="ix">
+              <RecipeItem :recipe="recipe"/>
+          </div>
         </div>
       </div>
     </div>

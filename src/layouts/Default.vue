@@ -1,6 +1,6 @@
 <template>
-  <div class="container mx-auto px-4 pt-4 h-screen text-gray-600">
-    <header class="flex justify-between items-center border-b-2 border-green-600">
+  <div class="container mx-auto px-4 pt-4 h-screen text-gray-600 sm:px-0">
+    <header class="flex justify-between items-center border-b-2 border-green-600 sm:px-4">
       <div class="font-display text-green-700 font-hairline text-6xl tracking-wider
                   lg:text-5xl sm:text-4xl">
         Rickb Recipes

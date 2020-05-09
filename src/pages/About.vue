@@ -1,9 +1,9 @@
 <template>
   <Layout>
-    <div class="flex justify-center pb-8">
+    <div class="flex justify-center pb-8 sm:px-4">
       <div class="w-10/12">
         <div class="w-full flex justify-center">
-          <div class="w-5/12 mt-8 mb-4 p-2">
+          <div class="w-5/12 mt-8 mb-4 p-2 sm:w-9/12">
             <g-image class="shadow" 
               :src="makeImagePathName('In Paris with Bagette and Wine')" />
             <p class="text-center text-sm pt-1">Your's truly, returning from market in Paris with the necessities</p>

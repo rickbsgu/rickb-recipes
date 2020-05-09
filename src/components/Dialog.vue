@@ -1,7 +1,7 @@
 <template>
     <div class="dialog fixed top-0 left-0 z-10 w-full h-full flex
                justify-center items-center">
-      <div class="w-1/3">
+      <div class="w-1/3 sm:w-3/4">
         <div class="rounded-t-xl bg-green-800 opacity-100 py-2 text-white px-4">
             <h1 class="font-display font-light
                     text-center text-3xl tracking-widest">

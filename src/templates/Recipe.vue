@@ -5,7 +5,7 @@
          :style="backgroundImageStyle">
       <div>
       <div class="rounded-t-xl bg-green-800 opacity-100 w-8/12 py-2 text-white px-4
-                  sm:w-full">
+                  sm:w-full sm:rounded-none">
           <h1 class="font-display font-light
                   text-center text-3xl tracking-widest">
             {{$page.recipe.title}}
