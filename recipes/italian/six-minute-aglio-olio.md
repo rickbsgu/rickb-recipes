@@ -1,12 +1,13 @@
 ---
-title: "Six Minute Aglio Olio"
+title: Six Minute Aglio Olio
 date: 2020-04-28
 author: Rick
-source: Surreal Gourmet - ToasterMobile
-description: "Wonderful tangy pasta recipe from Bob Blumer (Surreal Gourmet - ToasterMobile)"
-serves: 2
-image: "Aglio Olio + Crispy Italian Chicken"
-slug: "six-minute-aglio-olio"
+source: <a href="https://www.foodnetwork.com/shows/the-surreal-gourmet">Surreal Gourmet</a>
+description: Wonderful tangy pasta recipe from Bob Blumer (Surreal Gourmet - ToasterMobile)
+serves: "2"
+image: Aglio Olio + Crispy Italian Chicken
+slug: six-minute-aglio-olio
+
 ---
 ### Description
 
