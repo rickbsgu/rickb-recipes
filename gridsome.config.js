@@ -28,11 +28,38 @@ module.exports = {
           }
         ],
         searchFields: ['category', 'title', 'content'],
-    encode: "balance",
-    tokenize: "strict",
-    threshold: 0,
-    resolution: 3,
-    depth: 3
+        encode: "balance",
+        tokenize: "strict",
+        threshold: 0,
+        resolution: 3,
+        depth: 3
+      }
+    },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-166032317-1'
+      }
+    },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        cacheTime: 600000, // default
+        exclude: [],
+        config: {
+          '/recipes/*': {
+            changefreq: 'weekly',
+            priority: 0.5
+          },
+          '/about': {
+            changefreq: 'monthly',
+            priority: 0.7
+          },
+          '/category/*': {
+            changefreq: 'weekly',
+            priority: 0.5
+          }
+        }
       }
     }
   ],
