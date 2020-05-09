@@ -47,9 +47,28 @@ Without a doubt, the most elegant client-side platform available.  It's amazing,
 
 A static-site generator with a twist: it uses _graphql_ to provide and organize content sources.  It takes a bit to get your head around, but it's pretty powerful.
 
+I'm using a few plugins with this:
+
+<dl>
+<dt>tailwindcss</dt>
+<dd>Wanted something less opinionated than something like <em>vuetify</em>, which I've used in other situations.</dd>
+<dt>flexsearch</dt>
+<dd>Really fast local search implementation.  It works off <em>graphql</em> fields.</dd>
+<dt>google-analytics</dt>
+<dd>Gotta see if anyone is looking at this, besides me.</dd>
+<dt>sitemap</dt>
+<dd>Help out the search engines.</dt>
+<dt>PWA (shortly)</dt>
+<dd>Use the site off-line</dt>
+</dl>
+
 ### [Cloudinary](https://cloudinary.com)
 
 I don't want to generate and upload multiple-resolution images, if I can avoid it.  Cloudinary does image transforms on the fly, so I only have to upload a single image.  I can get all the resolutions I need by specifying them in the requesting url.
+
+### [Hyvor Talk](https://talk.hyvor.com/console/moderate/general/611)
+
+A commenting service, like _disqus_, only it has a nice free tier for low loads.
 
 ### [Netlify](https://www.netlify.com/)
 
