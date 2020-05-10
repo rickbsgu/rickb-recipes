@@ -4,7 +4,7 @@ serves: 2
 author: Rick
 title: Blender Mayonnaise
 source: Various
-image: "/v1588802612/Blender_Mayonnaise.png"
+image: "Blender_Mayonnaise.png"
 slug: blender-mayonnaise
 description: Easy mayonnaise made in a blender or food processor.
 
