@@ -7,7 +7,7 @@ sections:
 - type: directory
   path: recipes
   label: Recipes
-  create: documents
+  create: all
   match: "**/*"
 upload_dir: ''
 public_path: ''
