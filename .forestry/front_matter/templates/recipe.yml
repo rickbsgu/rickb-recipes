@@ -59,5 +59,6 @@ fields:
       path: 
   label: author
 pages:
+- recipes/blender-mayonnaise.md
 - recipes/italian/carbonara.md
 - recipes/tips/on-quantities.md
