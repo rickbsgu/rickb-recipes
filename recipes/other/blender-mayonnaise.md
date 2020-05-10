@@ -2,12 +2,11 @@
 date: 2020-05-10T16:22:35-06:00
 serves: 2
 author: Rick
-title: Blender Mayonnaise
+title: "Blender Mayonnaise"
 source: Various
-image: "Blender_Mayonnaise.png"
-slug: blender-mayonnaise
-description: Easy mayonnaise made in a blender or food processor.
-
+image: "Blender Mayonnaise"
+slug: "blender-mayonnaise"
+description: "Easy mayonnaise made in a blender or food processor"
 ---
 ### Description
 

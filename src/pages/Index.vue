@@ -215,14 +215,16 @@ export default {
       return images
     },
     categories: function() {
-      let categories = []
+      let categories = [], newCat
 
       for (let edge of this.$page.categories.edges) {
         if (!this.excludedCategory(edge.node.name))
           categories.push(edge.node.name)
       }
 
-      return categories
+      return categories.sort((c1, c2)=> {
+        return c1 === "other"? 1 : c2 === "other"? -1 : c1 === c2? 0 : c1 < c2? -1 : 1
+      })
     }
   }
 }
