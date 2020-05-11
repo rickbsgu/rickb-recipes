@@ -5,7 +5,7 @@
         <div class="w-full flex justify-center">
           <div class="w-5/12 mt-8 mb-4 p-2 sm:w-9/12">
             <g-image class="shadow" 
-              :src="v1588802623/In_Paris_with_Bagette_and_Wine.png" />
+              :src="makeImagePathName('/v1588802623/In_Paris_with_Bagette_and_Wine.png')" />
             <p class="text-center text-sm pt-1">Your's truly, returning from market in Paris with the necessities</p>
           </div>
         </div>

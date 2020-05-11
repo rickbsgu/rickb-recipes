@@ -14,13 +14,13 @@ export default {
       return this.GeneralImage_imageNames.has(imgName)
     },
     makeImagePathName(imageName, res) {
-      let retURL = 'https://res.cloudinary.com/rickbsgu/image/upload/'
+      let retURL = 'https://res.cloudinary.com/rickbsgu/image/upload'
 
       if (!imageName)
         imageName = this.generalImageName
 
       if (res)
-        retURL += 'c_scale,w_' + res + ',h_' + res + '/'
+        retURL += '/c_scale,w_' + res + ',h_' + res
 
       retURL += imageName
 

@@ -5,7 +5,7 @@ description: "Italian sausage, peppers, onions and tomatoes in italian spices, s
 author: Rick
 source: Self
 serves: 2
-image: "Sausage and Peppers"
+image: "/v1588802629/Sausage_and_Peppers.png"
 slug: "sausage-and-peppers"
 ---
 ### Description

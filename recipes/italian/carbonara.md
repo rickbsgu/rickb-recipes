@@ -4,7 +4,7 @@ serves: 2
 author: rick
 title: Carbonara
 source: Self
-image: "Carbonara"
+image: "/v1588802613/Carbonara.png"
 slug: carbonara
 description: Invented by the Italians, improved by the French, and perfected by Moi
 

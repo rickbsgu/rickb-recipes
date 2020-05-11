@@ -5,7 +5,7 @@ author: Rick
 source: <a href="https://www.foodnetwork.com/shows/the-surreal-gourmet">Surreal Gourmet</a>
 description: Wonderful tangy pasta recipe from Bob Blumer (Surreal Gourmet - ToasterMobile)
 serves: "2"
-image: Aglio Olio + Crispy Italian Chicken
+image: /v1588802612/Aglio_Olio_%2B_Crispy_Italian_Chicken.png
 slug: six-minute-aglio-olio
 
 ---

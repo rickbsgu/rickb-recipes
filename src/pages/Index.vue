@@ -19,7 +19,7 @@
                :src="imageItem.imagePath"
                v-tooltip="{content:getTooltip(imageItem.name),
                            placement:'bottom', offset:' w-9/12-50%'}"
-            @click="gotoRecipeforImage(imageItem.name)"
+            @click="gotoRecipe(imageItem.name, imageItem.recipePath)"
           />
         </div>
       </div>
@@ -97,25 +97,32 @@ export default {
       this.dlgMsg = message
       this.showDlg = true
     },
-    gotoRecipeforImage(imageName) {
-      let recipe = this.getRecipeForImage(imageName)
-
-      if (recipe)
-        this.$router.push(recipe.path)
+    gotoRecipe(name, recipePath) {
+      debugger
+      if (recipePath)
+        this.$router.push(recipePath)
 
       else
         this.showDialog("Oops...",
-           `<p>Sorry, no recipe yet for <em>${imageName}</em>.</p>
+           `<p>Sorry, no recipe yet for <em>${name}</em>.</p>
             <p>Please come back later....</p>`)
     },
-    getRecipeForImage(imageName) {
+    getRecipeForImagePath(imagePath) {
+      let imageParts = imagePath.split('/')
+      let baseImageName = imageParts[imageParts.length - 1]
+
       for (let edge of this.$page.recipes.edges)
         if (
-          edge.node.image &&
-          edge.node.image.indexOf(imageName) !== -1)
+            edge.node.image &&
+            decodeURIComponent(edge.node.image).endsWith(baseImageName))
           return edge.node
 
       return null
+    },
+    makeGridImagePathName(imageName, res) {
+      let fullName = '/v1588802620/' + imageName.replace(/ /g,'_') + '.png'
+      let imagePathName = this.makeImagePathName(fullName, res)
+      return imagePathName
     },
     windowResized() {
       const IMG_ASPECT = window.innerWidth < 640? 1 : 2
@@ -177,10 +184,13 @@ export default {
           imageIX = Math.floor(Math.random() * this.GRID_IMAGES.length)
           imageName = this.GRID_IMAGES[imageIX]
           if (!imageNameSet.has(imageName)) {
+            let gridImagePath = this.makeGridImagePathName(imageName, 350)
+            let recipe = this.getRecipeForImagePath(gridImagePath)
             imageNameSet.add(imageName)
             images.push({
               name: imageName,
-              imagePath: this.makeImagePathName(imageName, 350)
+              imagePath: gridImagePath,
+              recipePath: recipe? recipe.path : ''
             })
           }
         }
