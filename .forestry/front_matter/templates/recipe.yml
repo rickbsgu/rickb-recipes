@@ -59,6 +59,5 @@ fields:
       path: 
   label: author
 pages:
-- recipes/French/gallette.md
 - recipes/italian/carbonara.md
 - recipes/tips/on-quantities.md
