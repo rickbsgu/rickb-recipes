@@ -48,7 +48,7 @@
               </div>
             </div>
           </div>
-          <div class="recipe-content pl-4" v-html="$page.recipe.content">
+          <div class="recipe-content pl-4" v-html="$page.recipe.content + '<h3>Comments</h3>'">
           </div>
           <Comments :url="true"
                     :id="$page.recipe.slug"/>
