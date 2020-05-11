@@ -1,0 +1,7 @@
+---
+label: Category
+hide_body: false
+fields:
+- type: text
+  name: slug
+  label: slug
