@@ -33,4 +33,4 @@ This version came from a booklet in a crepe maker I bought in Paris.
 1. Add ham strips to the egg
 1. Grate a tablespoon or so of gruyere over the egg.
 1. When the white is cooked, flip the edges of the crepe.
-1. Optionally, ladle some [bechamel](/recipes/french/bechamel) over it.
+1. Optionally, ladle some [bechamel](/recipes/sauces/bechamel) over it.
