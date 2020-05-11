@@ -22,7 +22,7 @@ export default {
       if (res)
         retURL += 'c_scale,w_' + res + ',h_' + res + '/'
 
-      retURL += imageName.replace(/ /g, '_') + '.png'
+      retURL += imageName
 
       return retURL
     },
