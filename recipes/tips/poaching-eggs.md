@@ -1,12 +1,14 @@
 ---
-title: "Poaching Eggs"
+title: Poaching Eggs
 date: 2020-04-28
-description: "A perfectly poached egg is a thing to behold.  Here are three methods to do it right."
+description: A perfectly poached egg is a thing to behold.  Here are three methods
+  to do it right.
 author: Rick
 source: Various
-serves: 2
-image: "Egg Poacher"
-slug: "poaching-eggs"
+serves: "2"
+image: "/v1588802614/Egg_Poacher.png"
+slug: poaching-eggs
+
 ---
 ### Description
 
