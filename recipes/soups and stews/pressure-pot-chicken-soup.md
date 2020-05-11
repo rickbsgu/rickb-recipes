@@ -1,12 +1,13 @@
 ---
-title: "Pressure Pot Chicken Soup"
+title: Pressure Pot Chicken Soup
 date: 2020-05-01
 author: Rick
 source: Brother
-description: "Rich and flavorful soup, in relatively quick cook time."
-serves: 2
-image: "Pressure Pot Chicken Soup"
-slug: "pressure-pot-chicken-soup"
+description: Rich and flavorful soup, in relatively quick cook time.
+serves: "2"
+image: ''
+slug: pressure-pot-chicken-soup
+
 ---
 ### Description
 
