@@ -98,7 +98,6 @@ export default {
       this.showDlg = true
     },
     gotoRecipe(name, recipePath) {
-      debugger
       if (recipePath)
         this.$router.push(recipePath)
 
