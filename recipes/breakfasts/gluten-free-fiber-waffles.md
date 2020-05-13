@@ -1,12 +1,13 @@
 ---
-title: "Gluten Free Fiber Waffles"
+title: Gluten Free Fiber Waffles And Pancakes
 date: 2020-05-05
 author: Rick
 description: Gluten free waffles big on fiber.  Not fluffy.
 source: Self
-serves: 2
+serves: "2"
 image: "/v1588802624/Gluten_Free_Fiber_Waffles.png"
-slug: "gluten-free-fiber-waffles"
+slug: gluten-free-fiber-waffles
+
 ---
 ### Description
 
