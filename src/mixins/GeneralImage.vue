@@ -18,12 +18,10 @@ export default {
     makeImagePathName(imageName, res) {
       let retURL = 'https://res.cloudinary.com/rickbsgu/image/upload'
 
-debugger
       if (!imageName) {
-        debugger
         imageName = this.generalImageName
       }
-debugger
+
       if (res)
         retURL += '/c_scale,w_' + res + ',h_' + res
 
@@ -34,7 +32,6 @@ debugger
   },
   computed: {
     generalImageName: function() {
-      debugger
       let imageIX = Math.floor(Math.random() * this.GeneralImage_imageNames.length)
       return this.GeneralImage_imageNames[imageIX]
     }
