@@ -2,7 +2,7 @@
 title: Gluten Free Fiber Waffles And Pancakes
 date: 2020-05-05
 author: Rick
-description: Gluten free waffles big on fiber.  Not fluffy.
+description: Gluten free waffles or pancakes big on fiber.  Not fluffy.
 source: Self
 serves: "2"
 image: "/v1588802624/Gluten_Free_Fiber_Waffles.png"
