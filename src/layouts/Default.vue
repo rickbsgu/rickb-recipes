@@ -59,11 +59,10 @@ export default {
   }),
   metaInfo() { 
     return {
-      /*
-    link: [
-      { rel: 'canonical', href: "https://recipes.rickbsgu.com" + window.location.pathname }
-    ]
-    */
-  }}
+      link: [
+        { rel: 'canonical', href: "https://recipes.rickbsgu.com" + this.$route.fullPath }
+      ]
+    } 
+  }
 }
 </script>
