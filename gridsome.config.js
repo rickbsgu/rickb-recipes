@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'Rickb Recipes',
-  siteUrl: 'https://rickb-recipes.netlify.app',
+  siteUrl: 'https://recipes.rickbsgu.com',
   plugins: [
     {
       use: '@gridsome/source-filesystem',
