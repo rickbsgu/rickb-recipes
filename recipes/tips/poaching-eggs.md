@@ -6,7 +6,7 @@ description: A perfectly poached egg is a thing to behold.  Here are three metho
 author: Rick
 source: Various
 serves: 2
-image: "/v1588802614/Egg_Poacher.png"
+image: "/v1588802614/rickb-recipes/Egg_Poacher.png"
 slug: "poaching-eggs"
 ---
 ### Description

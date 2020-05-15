@@ -6,7 +6,7 @@ description: One of the four basic sauces. It's a bit tricky to master, but incr
 author: Rick
 source: Various
 serves: "2"
-image: /v1588802623/Eggs_Benedict.png
+image: /v1588802623/rickb-recipes/Eggs_Benedict.png
 slug: hollandaise
 
 ---

@@ -4,7 +4,7 @@ serves: 2
 author: Rick
 title: Gallette
 source: Crepe Maker Booklet
-image: "/v1588802620/Gallette.png"
+image: "/v1588802620/rickb-recipes/Gallette.png"
 slug: gallette
 description: A savory crepe, an egg, ham, and gruyere make this classic french lunch.
 

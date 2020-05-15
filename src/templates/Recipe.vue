@@ -58,7 +58,7 @@
     </div>
     <div v-if="showingImage" class="overlay fixed top-0 left-0 w-full h-full flex items-center">
       <div class="mx-auto w-1/2 border-2 border-gray-400 bg-white text-xl sm:w-3/4">
-        <img :src="makeImagePathName($page.recipe.image, 800)" />
+        <g-image :src="makeImagePathName($page.recipe.image, 800)" />
         <div class="flex justify-between mx-4">
           <div>{{$page.recipe.title}}</div>
           <button class="text-green-600 hover:underline focus:outline-none"

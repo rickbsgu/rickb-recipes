@@ -119,7 +119,7 @@ export default {
       return null
     },
     makeGridImagePathName(imageName, res) {
-      let fullName = '/v1588802620/' + imageName.replace(/ /g,'_') + '.png'
+      let fullName = '/rickb-recipes/' + imageName.replace(/ /g,'_') + '.png'
       let imagePathName = this.makeImagePathName(fullName, res)
       return imagePathName
     },

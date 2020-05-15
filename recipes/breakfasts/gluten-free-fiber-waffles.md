@@ -5,7 +5,7 @@ author: Rick
 description: Gluten free waffles or pancakes big on fiber.  Not fluffy.
 source: Self
 serves: "2"
-image: "/v1588802624/Gluten_Free_Fiber_Waffles.png"
+image: "/v1588802624/rickb-recipes/Gluten_Free_Fiber_Waffles.png"
 slug: gluten-free-fiber-waffles
 
 ---

@@ -4,7 +4,7 @@ serves: 2
 author: Rick
 title: Shrimp in Lime and Garlic
 source: Self
-image: "/v1588802631/Shrimp_in_Lime_and_Garlic.png"
+image: "/v1588802631/rickb-recipes/Shrimp_in_Lime_and_Garlic.png"
 slug: shrimp-in-lime-and-garlic
 description: Easy and fast, bright and tasty shrimp
 
