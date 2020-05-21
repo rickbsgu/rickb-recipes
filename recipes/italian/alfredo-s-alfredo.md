@@ -39,7 +39,7 @@ We noted a few differences from what we think of as _Alfredo Fettucine_, even as
 * Salt to taste
 * Nutmeg (optional)
 
-### Equipment
+### Tools
 
 A pasta fork works well for the final stages.
 
