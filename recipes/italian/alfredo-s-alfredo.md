@@ -17,7 +17,7 @@ The real thing - no packages, here.
 
 We had the opportunity to visit Alfredo's in Rome on a visit.
 
-As we were eating, a pair of musicians wandering the restaurant came to our table.  Usually, we're not really up for that sort of thing, but they persisted.  One had a guitar, one a mandolin, and they sang.  We sat politely through a couple of selections, and then ... they  did a number that, to my ears, sounded like what I would expect a siciliano folk song to sound like.  Plaintiff, calling.  Minor key.  It actually brought tears to my eyes.
+As we were eating, a pair of musicians wandering the restaurant came to our table.  Usually, we're not really up for that sort of thing, but they persisted.  One had a guitar, one a mandolin, and they sang.  We sat politely through a couple of selections, and then ... they  did a number that, to my ears, sounded like what I would expect a siciliano folk song to sound like.  Plaintive, longing.  Minor key.  It actually brought tears to my eyes.
 
 What could I say?  We were sitting at Alfredo's, in Rome, listening to folk music that came from my Southern Italian heritage.
 
