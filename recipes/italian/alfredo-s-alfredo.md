@@ -34,7 +34,7 @@ We noted a few differences from what we think of as _Alfredo Fettucine_, even as
 ### Ingredients
 
 * 1-2T Butter
-* 1/4C Cream (adjust as necessary)
+* 1/4C Heavy cream (adjust as necessary)
 * 1/3C _Freshly_ grated parmesan
 * Salt to taste
 * Nutmeg (optional)
