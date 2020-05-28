@@ -5,5 +5,3 @@ fields:
 - type: text
   name: slug
   label: slug
-pages:
-- recipes/+intro.md
