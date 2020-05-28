@@ -1,11 +1,11 @@
 <template>
   <Layout>
     <div class="recipe-ctnr min-h-full w-full pl-40 py-20
-                bg-no-repeat bg-repeat-y bg-contain sm:pl-0 sm:py-4"
+                bg-no-repeat bg-repeat-y bg-contain md:pl-20 sm:pl-0 sm:pb-4 sm:pt-0"
          :style="backgroundImageStyle">
       <div>
       <div class="rounded-t-xl bg-green-800 opacity-100 w-8/12 py-2 text-white px-4
-                  sm:w-full sm:rounded-none">
+                  lg:w-10/12 sm:w-full sm:rounded-none">
           <h1 class="font-display font-light
                   text-center text-3xl tracking-widest">
             {{$page.recipe.title}}
@@ -13,7 +13,7 @@
       </div>
       <div class="recipe-subctnr w-8/12 px-12 pb-8
                   rounded-b-xl text-gray-800 border-2 border-gray-600
-                  border-t-0 text-lg text-justify sm:w-full
+                  border-t-0 text-lg text-justify lg:w-10/12 sm:w-full
                   sm:text-gray-600"
         >
         <div class="flex justify-between text-sm pt-2 text-green-600">

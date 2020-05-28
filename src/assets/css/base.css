@@ -3,9 +3,9 @@
 h2, h3, h4,a,
 .recipe-content h3 { @apply text-green-700; }
 a:hover { @apply underline;}
-h2, h3 { @apply font-display tracking-wider
-            border-b-2 border-green-600;}
-h2 { @apply text-4xl mb-6; margin-left: -1em;}
+h2, h3 { @apply font-display; @apply tracking-wider;
+            @apply border-b-2; @apply border-green-600;}
+h2 { @apply text-4xl; @apply mb-6; margin-left: -1em;}
 h3 { @apply text-2xl; margin-left: -1em; margin-bottom: 0.5em;
      margin-top:1em; }
 
