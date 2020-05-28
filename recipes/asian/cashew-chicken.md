@@ -40,13 +40,13 @@ Fairly easy prep, flavorful.
 #### Prep
 
 1. Cut up the chicken and place in a bowl
-   1. Sprinkle with cornstarch and splash of rice vinegar
+   1. Sprinkle with salt, pepper, cornstarch, and _splash_ of rice vinegar
    2. Toss until coated and set aside
 2. Toast cashews
 3. Mix hoisin sauce, soy sauce, water, 2T rice wine and 2t cornstarch in a measuring cup.
    1. Set aside
 4. Chop any veggies
-   1. If using mushrooms, quarter them rather than slices
+   1. If using mushrooms, cut into quarters rather than slices
 5. Chop garlic and ginger
 
 #### Cook
@@ -70,4 +70,5 @@ Fairly easy prep, flavorful.
 #### Notes
 
 1. Per usual, you don't want to be messing with chopping or other prep once the wok is going. Get it all done before-hand.
-2. Stir and shake the wok constantly.
+2. Slicing mushrooms will make them cook down too quickly and you'll lose them in the mix.  Quarters will hold up with the other veggies.
+3. Stir and shake the wok constantly.
