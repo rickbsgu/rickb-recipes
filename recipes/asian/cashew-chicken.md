@@ -17,7 +17,7 @@ Fairly easy prep, flavorful.
 ### Ingredients
 
 * 1 to 1-1/2lbs chicken breasts, cut into strips or cubes pieces
-* rice vineger
+* rice wine (not vinegar)
 * handful of cashews
 * 1/4c water
 * 2t cornstarch
