@@ -59,6 +59,7 @@ fields:
       path: 
   label: author
 pages:
+- recipes/asian/cashew-chicken.md
 - recipes/italian/alfredo-s-alfredo.md
 - recipes/italian/carbonara.md
 - recipes/other/shrimp-in-lime-and-garlic.md
