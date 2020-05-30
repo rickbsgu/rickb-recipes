@@ -51,6 +51,3 @@ You'll never go out for ribs, again.
 
 1. We like to use _Stubbs_ smokey bbq sauce.  Besides having no HFCS, the smokiness gives the sauce a dark flavor we like.
 2. Air fry times may vary.  The original recipe called for 5 minutes on each side, but that turned out too dark for our taste.
-
-
-1. 
