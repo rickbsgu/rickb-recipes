@@ -2,11 +2,11 @@
   <Layout>
     <Dialog v-if="showDlg" @dialogClose="showDlg = false" :title="dlgTitle" :msg="dlgMsg" />
     <div class="relative" ref="homeCtnr">
-      <div class="tracking-widest w-full font-normal absolute top-0 py-4
+      <div class="tracking-widest w-full font-normal absolute top-0 py-2
                   flex justify-center flex-wrap
                   text-2xl lg:text-xl italic sm:text-lg sm:leading-loose" ref="navBlock">
         <div v-for="category of categories" :key="category"
-          class="px-8">
+          class="px-8 py-2">
           <g-link class="capitalize"
                 :to="'/category/' + category">
           {{category.replace(/ /g, '&nbsp;')}}
