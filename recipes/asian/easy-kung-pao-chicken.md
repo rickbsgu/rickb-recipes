@@ -1,5 +1,5 @@
 ---
-date: 2020-06-08T08:08:21-06:00
+date: 2020-06-08T08:08:21.000-06:00
 serves: 2
 author: Rick
 title: Easy Kung Pao Chicken
@@ -47,7 +47,6 @@ This is as a replacement for the _Pei Wei_ version.
 * 1/4c water
 * 2t corn starch
 * 1-2T Sichuan Dou Ban Jiang
-* 1-2T Rice Wine (_not_ vinegar)
 
 ### Equipment
 
