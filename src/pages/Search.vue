@@ -23,6 +23,21 @@
   </Layout>
 </template>
 
+<page-query>
+query {
+  recipes:allRecipe {
+    edges {
+      node {
+        path
+        image
+        title
+        description
+      }
+    }
+  }
+}
+</page-query>
+
 <script>
 import RecipeItem from '@/components/RecipeItem'
 export default {
@@ -46,10 +61,15 @@ export default {
         if (searchTerm.length > 2) {
           let results = this.$search.search({ query: searchTerm, limit: 10 })
           recipes = results.filter((result)=> result.path.indexOf('category') === -1)
+        } else {
+          recipes = this.$page.recipes.edges.map(edge => edge.node)
         }
       }
 
-      return recipes
+      return recipes.sort((r1, r2) =>  r1.title < r2.title? -1 :
+                                       r2.title > r2.title? 1 :
+                                       0
+                         )
     }
   }
 }
