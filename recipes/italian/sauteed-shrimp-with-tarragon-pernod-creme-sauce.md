@@ -6,7 +6,7 @@ title: Sauteed Shrimp with Tarragon Pernod Creme Sauce
 source: <a href="https://www.foodnetwork.com/shows/the-surreal-gourmet">Surreal Gourmet</a>
 image: ''
 slug: sauteed-shrimp-with-tarragon-pernod-creme-sauce
-description: _Licorice-ey_ flavored cream sauce for shrimp.  Quick prep time.
+description: Licorice-ey flavored cream sauce for shrimp.  Quick prep time.
 
 ---
 ### Description
