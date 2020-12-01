@@ -6,7 +6,7 @@ title: Pumpkin Cookies
 source: Web
 image: ''
 slug: pumpkin-cookies
-description: Awesome.  The new standard of excellence, as in, "That's _Pumpkin Cookies,_
+description: Awesome.  The new standard of excellence, as in, "That's Pumpkin Cookies,
   man."
 
 ---
