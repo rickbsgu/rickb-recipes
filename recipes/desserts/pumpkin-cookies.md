@@ -32,10 +32,10 @@ Awesome.  The new standard of excellence, as in, "That's _Pumpkin Cookies,_ man.
 
 ### Method
 
-1. Preheat oven to 375f
+1. Preheat oven to 375 degrees F
 2. Cream together butter/shortening and sugar
 3. Add can pumpkin, egg, and vanilla; mix well
 4. Sift dry ingredients into a separate bowl
-5. Add to the liquid ingredients and mix well
+5. Slowly add to the liquid ingredients, stirring as you add until well mixed.
 6. Stir in raisins (if using) and chocolate chips
-7. Drop cookies onto a wellgreased cookie sheet and bake about 15 minutes (we double-sheet the cookie sheets to prevent burning.  You can also try the "air-bake" sheets.)
+7. Drop cookies onto a well-greased cookie sheet and bake about 15 minutes (we double-sheet the cookie sheets to prevent burning.  You can also try the "air-bake" sheets.)
