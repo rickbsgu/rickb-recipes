@@ -36,10 +36,10 @@ This  is a great recipe, see notes below for my own modifications
 * 1-1/2t cinnamon
 * 1/4c butter
 
-#### Alternate Topping
+#### Alternate Topping (my preference)
 
 * 2/3c brown sugar
-* 1/4c flour
+* 1/4c all-purpose flour
 * 1/4t cinnamon
 * 2T butter
 
