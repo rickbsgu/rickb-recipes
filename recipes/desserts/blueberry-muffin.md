@@ -39,7 +39,7 @@ This  is a great recipe, see notes below for my own modifications
 #### Alternate Topping (my preference)
 
 * 2/3c brown sugar
-* 1/4c all-purpose flour
+* 1/4c all-purposeflour
 * 1/4t cinnamon
 * 2T butter
 
@@ -54,7 +54,7 @@ This  is a great recipe, see notes below for my own modifications
 7. Sprinkle with crumb topping mixture
 8. Bake for 20-25 mins @400F (200C)
 
-#### Notes
+### Notes
 
 * I didn't have a muffin tin when I first made this (on an RV), so I made it as one big muffin in an 8inch deep-walled pan.  It worked great!
 * The trick to this is to lower the heat to 350F and bake for more like 45mins.  Your oven may vary.
