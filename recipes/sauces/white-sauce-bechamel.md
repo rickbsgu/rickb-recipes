@@ -1,6 +1,6 @@
 ---
 date: 2020-12-06T12:40:17-07:00
-serves: 2
+serves: 4
 author: Rick
 title: White Sauce - Bechamel
 source: Various
