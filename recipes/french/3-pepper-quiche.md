@@ -98,4 +98,5 @@ Timing makes things go more efficiently.  See notes.
 * If you can't get gruyere (not likely - even Walmart has it in their deli section), you can substitute emmental or swiss - they're pretty close.  I've even tried it with block provolone and it wasn't bad...
 * Don't short the white pepper - if it seems a little peppery before it goes into the oven, it will be ok.  It mellows out in baking.
 * Test the quiche with a knife or toothpick - the times listed are for a convection oven.  A conventional oven may require higher temps and longer times.
-* Ideally, there should be a light browning on top of the quiche, when its done.
+* Ideally, there should be a light browning on top of the quiche, when its done and the insides firm. 
+* It can take a few tries to get right, depending on your tastes and oven - use the firmness and browning characteristics to adjust temperatures and times for the next iteration.
