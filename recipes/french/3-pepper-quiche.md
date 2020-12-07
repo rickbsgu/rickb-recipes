@@ -94,6 +94,7 @@ Timing makes things go more efficiently.  See notes.
   * After brushing the crust with the eggs and sticking it back in the oven, I can mix the rest of the filling
   * The rest goes pretty easily, since the crust and the veggies are done at about the same time.
 * Peppers and leeks can come in all sizes.  Add or subtract quantities as necessary - you don't want the filling to be too sparsely or densely packed.
+* Leeks can be _really_ dirty.  Make sure you follow the directions in step 8 in the _Veggies_ section, assiduously.
 * If you can't get gruyere (not likely - even Walmart has it in their deli section), you can substitute emmental or swiss - they're pretty close.  I've even tried it with block provolone and it wasn't bad...
 * Test the quiche with a knife or toothpick - the times listed are for a convection oven.  A conventional oven may require higher temps and longer times.
 * Ideally, there should be a light browning on top of the quiche, when its done.
