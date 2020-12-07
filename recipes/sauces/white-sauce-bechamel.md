@@ -11,13 +11,13 @@ description: Basic white sauce
 ---
 ### Description
 
-No recipe collection is complete without a basic white sauce recipe.  Which means you can find them anywhere.
+No recipe collection is complete without a basic white sauce recipe. 
 
-Rose and I had the privilege of attending a 2-day class at _Cordon Bleu_ featuring sauces.  While it didn't include a bechamel, it did introduce us to white pepper, wa small addition that really makes this variant stand out from the rest.
+Rose and I had the privilege of attending a 2-day class at _Cordon Bleu_ featuring sauces.  While it didn't include a bechamel, it did introduce us to white pepper, a small addition that really makes this variant stand out from the rest.
 
 ### Utensils
 
-* A small, heavy stainless sauce-pan with rounded edges at the bottom works best. 
+* A small, heavy stainless sauce-pan with rounded edges at the bottom works best.
 * A medium-sized whisk.
 
 ### Ingredients
