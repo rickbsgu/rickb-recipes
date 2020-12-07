@@ -36,12 +36,14 @@ Rose and I had the privilege of attending a 2-day class at _Cordon Bleu_ featuri
 4. Turn up the heat to medium
 5. Continue to whisk
 6. Don't stop whisking
-7. The milk has to come to a boil or the flour won't cook and you'll get a "flour-ey" taste to the salt, but only just.
-8. When thickened, add salt  and white pepper to taste.
+7. The milk will come to a _light_ boil and the sauce will start to thicken.
+8. Don't sopt whisking.
+9. When thickened, take off the heat, whisk in salt  and white pepper to taste.
 
 ### Notes
 
 * As with all sauces, you can't let your attention get diverted or it will curdle, boil over, or otherwise make a mess.  Once you've started, stay on it and don't stop whisking until it's done.
-* You can use _Wondra_ - if you want.  It works fine and has the benefit that you can add more at the end, if you want to thicken it more without clumping.  Sprinkle lightly.
+* The milk has to come to a boil or the flour won't cook and it will have a "flour-ish" taste to it.
+* You can use _Wondra_ - if you want.  It works fine and has the benefit that you can add more at the end, if you need to thicken it more without clumping.  Sprinkle lightly.
 * I've also used gluten-free flours.  You have to watch them as they'll thicken more than regular flour, so use less.  They also tend to thicken more quickly.
 * Use this as a base for other sauces.
