@@ -22,7 +22,7 @@ Watch your oven temps - the ones listed are for a _convection_ oven.  A conventi
 * A 9" glass pie pan works really well, with high sides.
 * Large bowl
 * Large whisk
-* Large cast iron skillet is good for sweating the peppers.
+* Large cast iron skillet is good for sweating the peppers and leeks.
 * Seive
 * Pie crust weights (or beans)
 
@@ -94,6 +94,8 @@ Timing makes things go more efficiently.  See notes.
   * After brushing the crust with the eggs and sticking it back in the oven, I can mix the rest of the filling into the eggs
   * The rest goes pretty easily, since the crust and the veggies are done at about the same time.
 * Peppers and leeks can come in all sizes.  Add or subtract quantities as necessary - you don't want the filling to be too sparsely or densely packed.
+* You can peel the peppers, for a more correct french style.  Blacken the skins over a flame or under the broiler, stick the peppers in a paper bag and wait for them to cool down.  If you've blackened them thoroughly, they should peel easily.
+  * I personally am not averse to the skins, so I don't go through the trouble.
 * Leeks can be _really_ dirty, depending on the source.  Make sure you follow the directions in step 8 in the _Veggies_ section, assiduously.
 * If you can't get gruyere (not likely - even Walmart has it in their deli section), you can substitute emmental or swiss - they're pretty close.  I've even tried it with block provolone and it wasn't bad...
 * Don't short the white pepper - if it seems a little peppery before it goes into the oven, it will be ok.  It mellows out in baking.
