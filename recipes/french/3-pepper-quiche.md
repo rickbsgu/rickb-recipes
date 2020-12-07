@@ -15,7 +15,7 @@ description: Traditional quiche
 
 Real men do _make_ quiche, however.  And then we eat them, anyway.  Preferably with a cup of hot, black coffee and a rasher of bacon.
 
-Watch your oven temps - the ones listed are for a _convection_ oven.  A conventional oven may require higher temperature (like 350F) and longer bake times.
+Watch your oven temps - the ones listed are for a _convection_ oven.  A conventional oven may require higher temperature setting (like 350F) and longer bake times.
 
 ### Utensils
 
@@ -48,7 +48,7 @@ Timing makes things go more efficiently.  See notes.
 2. Cut strips in half
 3. Place in large skillet with butter on low heat.  DON'T LET THEM BROWN!!
 4. Stir occasionally.
-5. Cut out the white parts of the leeks - that's what you want.  Trim the bottom off, as well.
+5. Cut out the white parts of the leeks - that's what you want.  Trim the bottom off, and strip off the outer layer, as well.
 6. Cut leek whites in half, longitudinally.
 7. Slice the halves into 1/8" slices, across the width.
 8. Place the leeks in the seive and rinse throughly, stirring with your fingers to separate the layers.
@@ -89,12 +89,13 @@ Timing makes things go more efficiently.  See notes.
 * Timing:
   * I start with cutting the peppers and getting them in the pan to sweat early - it can take the better part of an hour to get them soft.
   * While the peppers are sweating, I prep the crust and get it in the oven for the first bake.
-  * Then I can cut the leeks at my leisure, and whisk the eggs for the brush.
+  * Then I can cut the leeks at my leisure, and whisk the eggs for the brush while the peppers are sweating and the crust is baking.
   * Watching the peppers and adding the leeks at the appropriate time, I monitor the crust and do the second baking with the brushed on eggs
-  * After brushing the crust with the eggs and sticking it back in the oven, I can mix the rest of the filling
+  * After brushing the crust with the eggs and sticking it back in the oven, I can mix the rest of the filling into the eggs
   * The rest goes pretty easily, since the crust and the veggies are done at about the same time.
 * Peppers and leeks can come in all sizes.  Add or subtract quantities as necessary - you don't want the filling to be too sparsely or densely packed.
-* Leeks can be _really_ dirty.  Make sure you follow the directions in step 8 in the _Veggies_ section, assiduously.
+* Leeks can be _really_ dirty, depending on the source.  Make sure you follow the directions in step 8 in the _Veggies_ section, assiduously.
 * If you can't get gruyere (not likely - even Walmart has it in their deli section), you can substitute emmental or swiss - they're pretty close.  I've even tried it with block provolone and it wasn't bad...
+* Don't short the white pepper - if it seems a little peppery before it goes into the oven, it will be ok.  It mellows out in baking.
 * Test the quiche with a knife or toothpick - the times listed are for a convection oven.  A conventional oven may require higher temps and longer times.
 * Ideally, there should be a light browning on top of the quiche, when its done.
