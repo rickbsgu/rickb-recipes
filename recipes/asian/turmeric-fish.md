@@ -13,6 +13,8 @@ description: Light asian fish dish
 
 This goes together fairly quickly &mdash; the biggest hassle is ensuring the fish is dry.
 
+See notes.
+
 ### Ingredients
 
 #### Sauce
@@ -65,6 +67,7 @@ This goes together fairly quickly &mdash; the biggest hassle is ensuring the fis
 Serve the noodles and dish side-by-side in a shallow bowl &mdash; a pasta bowl works great.
 
 
-#### Notes
+### Notes
 
+1. It's imperative to insure the cod is _dry_.  Fish that has been frozen is especially wet.  Wrap with layers of paper towels and press out the water repeatedly until it's dry. It can take 10 or 15 paper towel sheets to do this.
 1. The sauce might work great as a _pad thai_ sauce (for two) by replacing the turmeric with some tamarind paste.  Haven't tried, yet...

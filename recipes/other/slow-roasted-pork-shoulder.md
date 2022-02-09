@@ -42,3 +42,7 @@ Slow roasting a pork shoulder yields meat you can use for days in all sorts of a
  1. Remove pork from oven and let rest for 10 minutes
  1. For every half cup drippings, whisk with 3T vinegar and 1/4t salt
  1. Slice or pull apart as required
+
+ ### Notes
+
+ 1. You can replace the garlic paste with a rub, if you have a favorite.  The roasting is the same.
