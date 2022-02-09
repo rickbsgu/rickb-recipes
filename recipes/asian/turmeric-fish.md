@@ -15,6 +15,8 @@ This goes together fairly quickly &mdash; the biggest hassle is ensuring the fis
 
 ### Ingredients
 
+#### Sauce
+
 * 1/2 small red or or green chile
 * 2t fish sauce
 * 2t lime juice
@@ -22,15 +24,23 @@ This goes together fairly quickly &mdash; the biggest hassle is ensuring the fis
 * 2 cloves garlic, minced and divided
 * 1/2 inch knob ginger
 * 1/2t turmeric
+* 1/4c cold water
+
+#### Fish
+
 * 3T oil, divided
 * 3/4lb cod filet
 * fresh dill to taste
 * 4 scallions, white parts very thinly sliced lengthwise, green parts cut into 2 inch pieces
 * 1/4c roasted peanuts
 
+#### Noodles
+
+* Pad thai (1/8" flat) rice stick.
+
 ### Method
 
-1. Place noodles in a dish with _hot_ water &mdash enough to cover the noodles.
+1. Place noodles in a dish with _hot_ water &mdash; enough to cover the noodles.
 1. Set aside.
 
 #### Sauce
@@ -50,11 +60,11 @@ This goes together fairly quickly &mdash; the biggest hassle is ensuring the fis
 1. Heat a small amount of oil in a wok
 1. Add noodles and stir, watching the texture of the noodles.
 1. Cook until the noodles start to soften. Add small amounts of water as necessary so they don't dry out.
-1. When noodles are slightly soft, add sauce and continue to stir until noodles get complete soft.
+1. When noodles are _slightly_ soft, add sauce and continue to stir until noodles get _al dente_.
 
-Serve the noodles and dish side-by-side in a shallow bowl - a pasta bowl works great.
+Serve the noodles and dish side-by-side in a shallow bowl &mdash; a pasta bowl works great.
 
 
 #### Notes
 
-1. The sauce would work great as a _pad thai_ sauce with the addition of a bit of tamarind.
+1. The sauce might work great as a _pad thai_ sauce (for two) by replacing the turmeric with some tamarind paste.  Haven't tried, yet...
