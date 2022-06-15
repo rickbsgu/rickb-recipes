@@ -17,14 +17,12 @@ This version is with a cajun fire-roasted tomato sauce.
 
 ### Ingredients:
 
-#### Stir Fry
-
 #### Shrimp
-* 12 Jumbo Shrimp, devained and peeled
+* 12 Jumbo Shrimp, deveined and peeled
 
 #### Sauce
 
-* 1-2 links andouille (or polska keilbasa or other sausage), cut into 1/4in to 1/2in pieces
+* 2 links andouille (or polska keilbasa or other sausage), cut into 1/4in to 1/2in pieces
 * 1 small green bell pepper, chopped small
 * 4T butter
 * 2T olive oil
