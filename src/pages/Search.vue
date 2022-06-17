@@ -13,10 +13,9 @@
             placeholder="Search">
         </div>
         <div>
-          <template
-            v-for="(recipe, ix) in searchResults">
-            <RecipeItem :key="ix" :recipe="recipe" />
-          </template>
+            <RecipeItem 
+               v-for="(recipe, ix) in searchResults"
+              :key="ix" :recipe="recipe" />
         </div>
       </div>
     </div>
@@ -60,7 +59,7 @@ export default {
         const searchTerm = this.searchTerm
         if (searchTerm.length > 2) {
           let results = this.$search.search({ query: searchTerm, limit: 10 })
-          recipes = results.filter((result)=> result.path.indexOf('category') === -1)
+          recipes = results.filter((result)=> result.node.path.indexOf('category') === -1).map((result) => result.node)
         } else {
           recipes = this.$page.recipes.edges.map(edge => edge.node)
         }

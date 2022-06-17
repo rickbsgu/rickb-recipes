@@ -32,17 +32,17 @@ The picture is the result - the actual shrimp from that day sizzling on my RV st
 * 4 cloves of garlic
 * 3T lime juice, or to taste
 * Salt to taste
-* Vermicelli
+* Vermicelli/spaghetti
 
 ### Method
 
-1. Start water boiling for the vermicelli
+1. Start water boiling for the pasta
 2. Crush or thinly slice garlic
 3. Melt butter in small skillet over low-medium heat
 4. Add garlic and saute over low until the garlic softens
 5. Add salt and lime juice.
 6. Add the shrimp last, and let it simmer just until the shrimp curls and turns white, turning every now and again to coat both sides of the shrimp pieces.
-7. Serve over bed of vermicelli
+7. Serve over bed of pasta
 
 ### Notes
 

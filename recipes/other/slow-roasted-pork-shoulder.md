@@ -6,7 +6,7 @@ title: Slow Roasted Pork Shoulder
 source: Food Network
 image: ''
 slug: slow-roasted-pork-shoulder
-description: Best ribs cooked in a pressure pot and finished in an air fryer
+description: Do this and you have meat for days
 
 ---
 ### Description

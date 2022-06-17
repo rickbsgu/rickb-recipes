@@ -25,7 +25,7 @@ module.exports = {
           {
             typeName: 'Recipe',
             indexName: 'Recipe',
-            fields: ['title', 'path', 'image', 'description']
+            fields: ['title', 'image', 'description', 'path']
           }
         ],
         searchFields: ['category', 'title', 'content'],
