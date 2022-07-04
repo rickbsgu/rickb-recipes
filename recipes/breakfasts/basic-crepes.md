@@ -10,7 +10,9 @@ slug: "basic-crepes"
 ---
 ### Description
 
-The great French invention, although pro frech chefs will sniff and call it "tourist food".
+(Note: Pronounced _cr&#x0115;p_, not _cr&#x0101;pe_.)
+
+The great French invention, although pro french chefs will sniff and call it "tourist food".
 
 While true that the many crepe stands that proliferate Parisian streets are visited by tourists, lots of native French are happy to queue up and order a _galette avec oeuf e jambon_ or _crepe avec fraise_ (strawberry jam) or _Nutella_.
 
@@ -18,10 +20,14 @@ They're pricey at the stands &mdash; even in the US they'll cost the equivalent 
 
 ### Tools
 
-- crepe pan, electric _creperie_ (best), or large, flat-bottomed skillet.
-- crepe paddle
+- Crepe pan, electric _creperie_ (best), or large, flat-bottomed skillet.
+- Crepe paddle
 
-The latter may be hard to come by, but if you're a bit handy with tools, you can make one with a couple of sections of wooden dowel.  I'll try to provide pictures.
+The latter may be hard to come by, but if you try to use a spatula or some other such clumsy instrument, you'll fail miserably.
+
+If you're a bit handy with tools, you can easily make one with a couple of sections of wooden dowel of different diameters &mdash; 1/8th inch and 1/4inch, respectively.  Cut the larger diameter to about 3 inches length and the smaller diameter to about 4 - 6 inches. Drill a hole in the larger diameter piece at mid-point big enough to insert the smaller diameter piece into it, and glue it in place to form a 'T'.
+
+I'll try to provide a picture.
 
 ### Ingredients
 
