@@ -29,7 +29,7 @@ All quanities are approximate.  Use a scale for weights.
 * 2 Cloves garlic, sliced thin
 * 2.5oz Protein (pork, chicken, tofu)
 * 5.0oz Shrimp
-* 2 eggs
+* 3 eggs
 * 7oz Rice vermicelli
 * Frying oil (peanut, canola, whatever)
 
@@ -39,7 +39,7 @@ All quanities are approximate.  Use a scale for weights.
 * 1T Fish sauce
 * 2t Oyster sauce
 * 1t Sugar
-* 1-2t curry powder (like Madras or whatever you can get)
+* 1/2t curry powder (like Madras or whatever you can get)
 * 1t tumeric
 
 ### Equipment
@@ -50,9 +50,9 @@ All quanities are approximate.  Use a scale for weights.
 
 Order is important, here.
 
-1. Boil enough water for noodles &mdash; about 8 cups
-1. Turn off the heat and add noodles.  Let noodles soak until flexible, but __not soft__
-1. Drain noodles and spread out on a cooling rack
+1. Boil enough water for noodles &mdash; about 8 cups, or so.
+1. Turn off the heat and add noodles.  Let noodles soak until flexible, but __not too soft__.
+1. Drain noodles and spread out on a cooling rack.
 
 #### 2. Prep Sauce
 
@@ -63,30 +63,32 @@ Order is important, here.
 
 Make sure all the of the ingredients are at hand.  You don't want to be searching for stuff, once the frying starts.
 
-1. Add 2 tablespoons (or so) of oil to the wok and turn heat on high
-1. When it's hot (starts to smoke), add protein
-1. When browned/crisped to taste (a minute or two) pull to side of wok and add scrambled egg
-1. When egg has set, pull to side of wok and add shrimp
-1. Stir until shrimp turns pink or looks done (also a minute or two)
-1. Transfer contents to another container
-1. Add oil to the wok if dry and add carrots
-1. Cook until they look done to your taste
-1. Add garlic and stir until soft
-1. Add pepper and stir for a few seconds
-1. Add noodles (you might want to shift to tongs)
-1. Add sauce and toss noodles until coated
-1. Add scallions and continue to toss until scallions glisten
-1. Re-add the protein and stir until well blended
-1. Turn off heat and serve
+1. Add 2 tablespoons (or so) of oil to the wok and turn heat on high.
+1. When it's hot (starts to smoke), add tofu/pork/chicken.
+1. When browned/crisped to taste separate into another bowl/dish and drain off oil.
+1. Add more oil if necessary and shrimp.
+1. Fry shrimp until just done, and pull off with the other protein.
+1. Add more oil if necessary and beaten eggs, stirring until they set.
+1. Add to the rest of the protein bowl.
+1. Reduce heat, to medium.
+1. Add more oil if necessary to the wok and add carrots &mdash; stir fry until slightly soft.
+1. Add pepper and onion and stir until the onion gets soft and translucent.
+1. Add scallions and garlic and continue to toss a few seconds until they start ot soften.
+1. Re-add the protein and stir until well blended.
+1. Add noodles (you might want to shift to tongs).
+1. Add sauce (stir first to mix up the dry ingredients) and toss noodles until coated &mdash; if they're too firm/chewy, add water a little at a time and test until they're the correct consistency. 
+1. Turn off heat and serve.
 
 
 ### Notes
 
-1. It all goes _really_ fast, once you start the stir fry.
+1. It all goes _really_ fast, once you start the stir fry &mdash; make sure your ingredients are prepped and in reach.
 1. Describing the ingredients and process is much more complicated than actually doing the recipe.  It goes more smoothly after you've done it a few times.
-1. Don't use _Kikkoman_ soy sauce for cooking.  It's Japanese - you want light Chinese soy sauce.
-1. Keep the wok _hot_, otherwise the noodles will stick.  Move quickly and keep things stirring as you add ingredients.
-1. We find the recommended noodle quantity is to much.  Find your own level.
-1. Rice noodle labeled "Angel Hair" is too fine.  If you use it, only soak it for a minute and a half to two minutes.  It's pretty hard to keep it from clumping.
-1. The recommended noodles are these from Amazon: [Asian Best Gun Bao](https://smile.amazon.com/dp/B00ZD8EZA0?ref=ppx_yo2_dt_b_product_details&th=1)
+1. Set up ventilation as best you can over your cooking surface &mdash; our smoke detectors tend to go off repeatedly, if we're not careful.  We turn on an overhead ventilation hood fan to max and open a kitchen window.  The smoke lessens after you turn the heat down and move to veggies and get more ingredients in the wok.
+1. Madras curry varies wildly in flavor and heat intensity from brand to brand.  This amount is for _Koshy's_ brand, if you can find it.
+1. Don't use _Kikkoman_ soy sauce for cooking.  It's Japanese. You want light Chinese soy sauce.
+1. Keep the wok _hot_, especially for the protein.  Move quickly and keep things stirring as you add ingredients.
+1. I like to suspend a strainer over a smaller bowl to hold the separated protein &mdash; that way the oil can drain off easily and thoroughly.
+1. Rice noodles labeled _"Angel Hair"_ are too fine.  If you use them, only soak them for a minute and a half to two minutes.  It's pretty hard to keep them from clumping.
+1. The best noodles for this are these from Amazon: [Asian Best Gun Bao](https://smile.amazon.com/dp/B00ZD8EZA0?ref=ppx_yo2_dt_b_product_details&th=1)
 7. If you want to see a video, go to the source listed at the top.  It's pretty involved, but she is wonderful to watch and very informative, as well.

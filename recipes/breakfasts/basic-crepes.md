@@ -6,13 +6,13 @@ author: Rick
 source: Various
 serves: 2
 image: ""
-slug: "basic-creps"
+slug: "basic-crepes"
 ---
 ### Description
 
-The great French invention, although pro cooks will sniff and call it "tourist food".
+The great French invention, although pro frech chefs will sniff and call it "tourist food".
 
-While true, the many crepe stands that proliferate Parisian streets are visited by tourists, lots of native French are happy to queue up and order a _galette avec oeuf e jambon_ or _crepe avec fraise_ (strawberry jam) or _Nutella_.
+While true that the many crepe stands that proliferate Parisian streets are visited by tourists, lots of native French are happy to queue up and order a _galette avec oeuf e jambon_ or _crepe avec fraise_ (strawberry jam) or _Nutella_.
 
 They're pricey at the stands &mdash; even in the US they'll cost the equivalent of two or three euros.  Not much trouble and _certainly_ much cheaper to make at home.
 
