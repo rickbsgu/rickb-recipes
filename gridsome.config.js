@@ -43,6 +43,12 @@ module.exports = {
       }
     },
     {
+      use: 'gridsome-plugin-gtag',
+      options: {
+        id: 'G-CNK1PBH301'
+      }
+    },
+    {
       use: '@gridsome/plugin-sitemap',
       options: {
         cacheTime: 600000, // default
