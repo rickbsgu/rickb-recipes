@@ -17,7 +17,7 @@ This version came from a booklet in a crepe maker I bought in Paris.
 
 ### Ingredients
 
-* Savory [crepes](/recipes/french/crepes)
+* Savory [crepes](/recipes/french/basic-crepes)
 * Egg
 * Ham, sliced into strips
 * Gruyere cheese (emmentaler or swiss works just as well)
