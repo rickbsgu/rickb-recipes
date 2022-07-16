@@ -1,0 +1,6 @@
+#! /bin/sh
+yarn build
+netlify deploy --prod << _arg
+dist
+_arg
+rm -rf dist
