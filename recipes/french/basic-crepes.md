@@ -59,8 +59,7 @@ I'll try to provide a picture.
   - Reverse the buckwheat and wheat flour volumes.
   - The buckwheat makes the batter _really_ sticky.  The gallettes should be thicker, anyway, but if too thick, just thin them out with a bit of milk.
 - Flour: You can get into heated arguments with the french on the topic of flour.  I've found in Europe (France), type 45 works best.  In the US, cake flour is the closest approximation to type 45.
-- Gluten free: Rose is gluten intolerant, so we have to avoid wheat flours.
-  - I find the _Great Value_ (Walmart) brand works really well and it's economical.
+- Gluten free: Rose is gluten intolerant, so we have to avoid wheat flours.  You can use gluten-free flour &mdash; I find the _Great Value_ (Walmart) brand works really well and it's economical.
 - You can skip the buckwheat flour (for the regular recipe), but the consistency and browning charactistics are much better with it.  Make sure you get buckwheat _flour,_ not pancake mix.
 - It'll take a few crepes before you get the hang of the spreading technique and flip timing.
 - We usually make a batch and a half for two.
