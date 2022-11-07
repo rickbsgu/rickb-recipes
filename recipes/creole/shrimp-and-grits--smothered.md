@@ -4,7 +4,7 @@ serves: 2
 author: Rick
 title: Shrimp and Grits - Smothered
 source: <a href="https://www.youtube.com/watch?v=XT-3_MoIYLI">Smokin & Grillin with AB</a>
-image: ''
+image: "/v1659297577/rickb-recipes/Shrimp_n_Grits.jpg"
 slug: shrimp-and-grits-smothered
 description: Shrimp and grits in a fire roasted tomato sauce
 
