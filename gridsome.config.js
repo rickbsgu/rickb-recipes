@@ -37,12 +37,6 @@ module.exports = {
       }
     },
     {
-      use: '@gridsome/plugin-google-analytics',
-      options: {
-        id: 'UA-166032317-1'
-      }
-    },
-    {
       use: 'gridsome-plugin-gtag',
       options: {
         id: 'G-CNK1PBH301'
