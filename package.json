@@ -1,5 +1,6 @@
 {
   "name": "rickb-recipes",
+  "node-version": "16.16.0 (n 16.16.0 to set it)",
   "private": true,
   "scripts": {
     "build": "gridsome build",
