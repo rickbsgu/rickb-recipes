@@ -51,11 +51,11 @@ It is now my goto hollandaise.  See the notes at the end for more information.
 
 ### Notes
 
-1. The original recipe is specified in weight, hence I put the weight values first.  It's really the better way to measure ingredients.
-1. At the time of this writing, eggs are almost 50 cents US each.  Using egg yolk powder really saves the egg usage to what you need.
-1. Egg yolk powder is made by spraying egg yolks on to a surface, letting them dry, and then scraping them off the surface.  They're really egg yolks.
-1. Some egg yolk powders have sodium phospho-aluminate in it (or some such variant) as an anti-clumping agent.  For the same reason I don't like to use double-acting baking powder, I don't like to use those.
-1. Store the unused sauce in a closed container in the refrigerator.
-1. To use again, spoon out what you need into a pan and warm _slowly_.  I put it in the pan on low heat and stir it now and again.  As soon as it starts to liquify, I turn off the heat and let the residual heat of the pan liquify/heat it the rest of the way.
-1. You can heat it in the microwave at a low level (I've use half-power for 1 minute, stir and do it gain until it's liquified and warm).
-1. If you heat it too much or too long, it will absolutely break (it's real hollandaise).
+* The original recipe is specified in weight, hence I put the weight values first.  It's really the better way to measure ingredients.
+* At the time of this writing, eggs are almost 50 cents US each.  Using egg yolk powder really saves the egg usage to what you need.
+* Egg yolk powder is made by spraying egg yolks on to a surface, letting them dry, and then scraping them off the surface.  They're really egg yolks.
+* Some egg yolk powders have sodium phospho-aluminate in it (or some such variant) as an anti-clumping agent.  For the same reason I don't like to use double-acting baking powder, I don't like to use those.
+* Store the unused sauce in a closed container in the refrigerator.
+* To use again, spoon out what you need into a pan and warm _slowly_.  I put it in the pan on low heat and stir it now and again.  As soon as it starts to liquify, I turn off the heat and let the residual heat of the pan liquify/heat it the rest of the way.
+* You can heat it in the microwave at a low level (I've use half-power for 1 minute, stir and do it gain until it's liquified and warm).
+* If you heat it too much or too long, it will absolutely break (it's real hollandaise).
