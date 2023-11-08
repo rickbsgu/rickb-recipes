@@ -43,13 +43,13 @@ This is the best approximation of that recipe I could find.
  1. Add onion to pot and cook until fragrant - about 5 minutes.
  1. Stir in garlic, cumin, paprika, chili powder, pinch of salt and pepper.
  1. Cook 5-10 minutes until very fragrant.
- 1. Add corn, potato, chicken and half the poblanos.
+ 1. Add corn, potato, chicken and the poblano.
  1. Stir in broth.
  1. Cover and simmer for 15 minutes &ndash; until chicken is cooked through.
  1. Pull chicken out and shred with a couple of forks.
  1. Transfer 3/4 of the chowder to a blender and blend until mostly smooth
  1. Return to pot, along with chicken.
- 1. Stir in remaining poblano, milk, cream cheese and salsa verde.
+ 1. Stir in milk, cream cheese and salsa verde.
  1. Simmer another 10 minutes.
 
 
