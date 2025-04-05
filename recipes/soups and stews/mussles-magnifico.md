@@ -1,6 +1,6 @@
 ---
 date: 2025-04-04T10:29:00-07:00
-serves: 4
+serves: 2
 author: Rick
 title: Mussels Magnifico
 source: Package label
