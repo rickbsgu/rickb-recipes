@@ -19,7 +19,7 @@ It's really easy to make, _but_ the hard part is getting the right noodles.  You
 
 #### Stir Fry
 
-All quanities are approximate.  Use a scale for weights.
+All quantities are approximate.  Use a scale for weights.
 
 * 1.5oz Carrots, julienned
 * 2.5oz Bell pepper (any color is fine), sliced into 1/8 inch strips
